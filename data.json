@@ -1,0 +1,83 @@
+{
+    "top": [
+                {   "nombre": "hoodie",
+                    "imagen:":,
+                    "style": ["casual","semicasual"],    
+                    "time of day":["day","afternoon", "night"],  
+                    "weather":["cold","warmy"]
+
+                },
+                
+                {   "nombre": "hoodie",
+                    "imagen:":,
+                    "style": ,    
+                    "time of day":,  
+                    "weather":,
+
+                },
+                
+                {   "nombre": "hoodie",
+                    "imagen:":,
+                    "style": "goda",    
+                    "time of day":,  
+                    "weather":,
+
+                },
+
+                {   "nombre": "hoodie",
+                    "imagen:":,
+                    "style": ,    
+                    "time of day":,  
+                    "weather":,
+
+                },
+
+                {   "nombre": "hoodie",
+                    "imagen:":,
+                    "style": ,    
+                    "time of day":,  
+                    "weather":,
+
+                },
+
+                {   "nombre": "hoodie",
+                    "imagen:":,
+                    "style": ,    
+                    "time of day":,  
+                    "weather":,
+
+                },
+
+                {   "nombre": "hoodie",
+                    "imagen:":,
+                    "style": ,    
+                    "time of day":,  
+                    "weather":,
+
+                },
+
+                {   "nombre": "hoodie",
+                    "imagen:":,
+                    "style": ,    
+                    "time of day":,  
+                    "weather":,
+
+                },
+
+                {   "nombre": "hoodie",
+                    "imagen:":,
+                    "style": ,    
+                    "time of day":,  
+                    "weather":,
+
+                },
+
+                {   "nombre": "hoodie",
+                    "imagen:":,
+                    "style": ,    
+                    "time of day":,  
+                    "weather":,
+
+                },
+            ]
+}
