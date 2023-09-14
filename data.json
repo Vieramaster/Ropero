@@ -1,83 +1,527 @@
 {
     "top": [
-                {   "nombre": "hoodie",
-                    "imagen:":,
-                    "style": ["casual","semicasual"],    
-                    "time of day":["day","afternoon", "night"],  
-                    "weather":["cold","warmy"]
 
+                {   
+                    "nombre": "hoodie",
+                    "imagen:":"/images/imagenesArray/hoodie.webp",
+                    "estilo": ["deportivo","casual", "basico"],    
+                    "tiempo":["dia", "tarde", "noche"],
+                    "clima":["frio", "templado"] 
+                },
+
+                {   
+                    "nombre": "buzoSinCapucha",
+                    "imagen:": "/",
+                    "estilo": ["deportivo", "casual", "basico"],    
+                    "tiempo":["dia", "tarde", "noche"],
+                    "clima":["calor", "templado"] 
+                },
+            
+                {   
+                    "nombre": "remera",
+                    "imagen:": "/",
+                    "estilo": ["deportivo", "casual", "basico"],  
+                    "tiempo": ["dia", "tarde", "noche"],
+                    "clima":  ["calor", "templado"] 
+                },
+            
+                {
+                    "nombre": "remeraV",
+                    "imagen:": "/",
+                    "estilo": ["deportivo","casual", "basico"],
+                    "tiempo": ["dia","tarde","noche"],
+                    "clima":  ["calor","templado"]
                 },
                 
-                {   "nombre": "hoodie",
-                    "imagen:":,
-                    "style": ,    
-                    "time of day":,  
-                    "weather":,
+                {
+                    "nombre": "chomba",
+                    "imagen:": "/",
+                    "estilo": ["casual","elegante", "basico"],
+                    "tiempo": ["dia","tarde","noche"],
+                    "clima":  ["calor","templado"]
+                },
 
+                {
+                    "nombre": "sweater",
+                    "imagen:": "/",
+                    "estilo": ["casual","elegante"],
+                    "tiempo": ["dia","tarde","noche"],
+                    "clima":  ["templado","frio"]
+                },
+
+                {
+                    "nombre": "polera" ,
+                    "imagen:": "/",
+                    "estilo": ["casual","elegante", "basico"],
+                    "tiempo": ["tarde","noche"],
+                    "clima":  "frio"
+                },
+
+                {
+                    "nombre": "camisaCorta",
+                    "imagen:": "/",
+                    "estilo": ["casual","elegante", "basico"],
+                    "tiempo": ["tarde","noche"],
+                    "clima":  "calor"
                 },
                 
-                {   "nombre": "hoodie",
-                    "imagen:":,
-                    "style": "goda",    
-                    "time of day":,  
-                    "weather":,
-
+                {
+                    "nombre": "camisaLarga",
+                    "imagen:": "/",
+                    "estilo": ["casual","elegante"],
+                    "tiempo": ["tarde","noche"],
+                    "clima":  ["frio","templado","calor"]
                 },
 
-                {   "nombre": "hoodie",
-                    "imagen:":,
-                    "style": ,    
-                    "time of day":,  
-                    "weather":,
+                {
+                    "nombre": "camisaLino",
+                    "imagen:": "/",
+                    "estilo": ["casual", "basico"],
+                    "tiempo": "tarde",
+                    "clima":  "calor"
+                },
+                
+                {
+                    "nombre": "remeraLarga" ,
+                    "imagen:": "/",
+                    "estilo": ["casual","deportivo", "basico"],
+                    "tiempo": ["dia","tarde"],
+                    "clima":  "frio"
+                }
+            ],
 
+
+    "abrigo":[
+                {
+                    "nombre": "camperaJean/gabardina",
+                    "imagen:": "/",
+                    "estilo": ["casual", "basico"],
+                    "tiempo": ["tarde","dia", "noche"],
+                    "clima":  ["calor","templado"]
                 },
 
-                {   "nombre": "hoodie",
-                    "imagen:":,
-                    "style": ,    
-                    "time of day":,  
-                    "weather":,
-
+                {
+                    "nombre": "CamperaCuero",
+                    "imagen:": "/",
+                    "estilo":  "casual",
+                    "tiempo": ["dia","tarde","noche"],
+                    "clima":  ["frio", "templado", "calor"]
                 },
 
-                {   "nombre": "hoodie",
-                    "imagen:":,
-                    "style": ,    
-                    "time of day":,  
-                    "weather":,
-
+                {
+                    "nombre": "camperaInflable",
+                    "imagen:": "/",
+                    "estilo": ["deportivo", "basico"],
+                    "tiempo": ["dia","tarde"],
+                    "clima":  "frio"
                 },
 
-                {   "nombre": "hoodie",
-                    "imagen:":,
-                    "style": ,    
-                    "time of day":,  
-                    "weather":,
-
+                {
+                    "nombre": "parka",
+                    "imagen:": "/",
+                    "estilo": ["casual", "basico"],
+                    "tiempo": ["dia","tarde"],
+                    "clima":  "frio"
                 },
 
-                {   "nombre": "hoodie",
-                    "imagen:":,
-                    "style": ,    
-                    "time of day":,  
-                    "weather":,
+                {
+                    "nombre": "camisaco",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["dia","tarde","noche"],
+                    "clima":  ["templado","frio"]
+                }
 
+                {
+                    "nombre": "bomber",
+                    "imagen:": "/",
+                    "estilo": ["casual", "basico"],
+                    "tiempo": ["dia","tarde"],
+                    "clima":  ["templado","calor"]
                 },
 
-                {   "nombre": "hoodie",
-                    "imagen:":,
-                    "style": ,    
-                    "time of day":,  
-                    "weather":,
-
+                {
+                    "nombre": "camperaUniversitaria",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": "tarde",
+                    "clima":  ["templado", "frio"]
                 },
 
-                {   "nombre": "hoodie",
-                    "imagen:":,
-                    "style": ,    
-                    "time of day":,  
-                    "weather":,
-
+                {
+                    "nombre": "CamperaJeanAbrigo",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["dia", "tarde"],
+                    "clima":  "frio"
                 },
-            ]
+
+                {
+                    "nombre": "gaban",
+                    "imagen:": "/",
+                    "estilo": ["casual", "elegante"],
+                    "tiempo": ["tarde", "noche"],
+                    "clima":   "frio"
+                },
+
+                {
+                    "nombre": "camperaRompeViento",
+                    "imagen:": "/",
+                    "estilo": ["deportivo", "basico"],
+                    "tiempo": ["dia", "tarde"],
+                    "clima":  "calor"
+                },
+
+                {
+                    "nombre": "sacoSport",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": "tarde",
+                    "clima":  ["templado", "frio"]
+                },
+
+                {
+                    "nombre": "saconCorto",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["tarde", "dia"],
+                    "clima":  "frio"
+                },
+
+                {
+                    "nombre": "sacoCruzado",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["tarde", "dia"],
+                    "clima": "frio"
+                },
+
+                {
+                    "nombre": "sobretodo",
+                    "imagen:": "/",
+                    "estilo": ["casual", "elegante"],
+                    "tiempo": ["tarde", "noche"],
+                    "clima":  "frio"
+                },
+
+                {
+                    "nombre": "Montgomery",
+                    "imagen:": "/",
+                    "estilo": ["casual","basico"],
+                    "tiempo": ["dia", "tarde"],
+                    "clima":  "frio"
+                },
+    ],
+
+
+    "cuello":[
+                {
+                    "nombre": "collarCadenaChica",
+                    "imagen:": "/",
+                    "estilo": ["casual","elegante"],
+                    "tiempo": ["dia", "tarde", "noche"],
+                    "clima":  ["templado", "calor"]
+                },
+
+                {
+                    "nombre": "collarCadenaGrande",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["dia","tarde","noche"],
+                    "clima":  ["templado", "calor"]
+                },
+                
+                {
+                    "nombre": "collarPelotas",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["dia", "tarde", "noche"],
+                    "clima":  ["templado", "calor"]
+                },
+                
+                {
+                    "nombre": "collarObjeto",
+                    "imagen:": "/",
+                    "estilo": ["casual", "basico"],
+                    "tiempo": ["dia","tarde","noche"],
+                    "clima": ["templado", "frio"] 
+                },
+                
+                {
+                    "nombre": "collarMadera",
+                    "imagen:": "/",
+                    "estilo": ["basico","casual"],
+                    "tiempo": ["dia", "tarde"],
+                    "clima":  "calor"
+                },
+                
+                {
+                    "nombre": "bufanda",
+                    "imagen:": "/",
+                    "estilo": ["casual","basico","elegante"],
+                    "tiempo": ["dia", "tarde", "noche"],
+                    "clima": "frio"
+                }
+                
+                
+                
+                                                                                                                                                
+            ],
+
+
+    "cinturon":[
+
+                {
+                    "nombre": "Vestir",
+                    "imagen:": "/",
+                    "estilo": "elegante",
+                    "tiempo": "noche",
+                    "clima":  ["frio", "calor"]
+                },
+
+                {
+                    "nombre": "tradicional",
+                    "imagen:": "/",
+                    "estilo": ["casual", "basico"],
+                    "tiempo": ["dia", "tarde", "noche"],
+                    "clima":  ["frio", "templado", "calor"]
+                },
+
+                {
+                    "nombre": "tela",
+                    "imagen:": "/",
+                    "estilo": ["casual", "basico"],
+                    "tiempo": ["dia", "tarde"],
+                    "clima":  ["templado", "calor"]
+                },
+                
+                {
+                    "nombre": "jean",
+                    "imagen:": "/",
+                    "estilo": ["casual", "basico"],
+                    "tiempo": ["dia", "tarde"],
+                    "clima":  ["frio", "templado", "calor"]
+                },
+                
+                {
+                    "nombre": "trenzados",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["dia", "tarde"],
+                    "clima":  ["frio", "templado", "calor"]
+                }
+                
+
+                ],
+
+    "reloj":[
+
+                {
+                    "nombre": "deportivo",
+                    "imagen:": "/",
+                    "estilo": "deportivo",
+                    "tiempo": ["dia", "tarde"],
+                    "clima":  ["frio", "templado", "calor"]
+                },
+        
+        
+                {
+                    "nombre": "aviador",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["tarde", "dia"],
+                    "clima":  ["frio", "templado", "calor"]
+                },
+                
+                {
+                    "nombre": "racing",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["dia", "tarde"],
+                    "clima":   ["frio", "templado", "calor"]
+                },
+                
+                {
+                    "nombre": "dress",
+                    "imagen:": "/",
+                    "estilo": "elegante",
+                    "tiempo": ["noche", "tarde"],
+                    "clima":   ["frio", "templado", "calor"]
+                },
+
+                {
+                    "nombre": "CorreaTela",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["dia", "tarde"],
+                    "clima":["frio", "templado", "calor"]
+                },
+            ],
+
+    "pantalones":[
+
+
+                {
+                    "nombre": "jean/Gabardina",
+                    "imagen:": "/",
+                    "estilo": ["casual", "basico"],
+                    "tiempo": ["dia","tarde"],
+                    "clima":  ["frio","templado","calor"]
+                },
+
+                {
+                    "nombre": "chino",
+                    "imagen:": "/",
+                    "estilo": ["casual", "elegante"],
+                    "tiempo": ["tarde","noche"],
+                    "clima":  ["frio","calor","templado"]
+                },
+
+                {
+                    "nombre": "cargo",
+                    "imagen:": "/",
+                    "estilo": "basico",
+                    "tiempo": ["dia","tarde"],
+                    "clima":  ["frio","calor","templado"]
+                },
+
+                {
+                    "nombre": "lino",
+                    "imagen:": "/",
+                    "estilo": ["casual","basico"],
+                    "tiempo": ["dia","tarde"],
+                    "clima":  "calor"
+                },
+
+                {
+                    "nombre": "babucha",
+                    "imagen:": "/",
+                    "estilo": ["casual", "basico"],
+                    "tiempo": ["dia","tarde"],
+                    "clima":  ["templado","calor"]
+                },
+
+                {
+                    "nombre": "jogin",
+                    "imagen:": "/",
+                    "estilo": ["basico","deportivo"],
+                    "tiempo": ["dia","tarde"],
+                    "clima":  ["frio","templado"]
+                },
+
+            
+
+                {
+                    "nombre": "bermudaAlgodon",
+                    "imagen:": "/",
+                    "estilo": "basico",
+                    "tiempo": ["dia","tarde"],
+                    "clima":  "calor"
+                },
+
+                {
+                    "nombre": "bermudaGabardina/jean",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["tarde","dia"],
+                    "clima":  "calor"
+                }
+    ],
+
+
+    "calzado":[
+
+                {
+                    "nombre": "deportivo",
+                    "imagen:": "/",
+                    "estilo": "deportivo",
+                    "tiempo": ["dia","tarde"],
+                    "clima":  ["calor","frio","templado"]
+                },
+
+
+                {
+                    "nombre": "urbano",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["dia","tarde"],
+                    "clima":  ["calor","frio","templado"]
+                },
+
+                {
+                    "nombre": "nautico",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["dia","tarde"],
+                    "clima": ["calor","frio","templado"]
+                },
+
+                {
+                    "nombre": "sneakers",
+                    "imagen:": "/",
+                    "estilo": ["basico","casual"],
+                    "tiempo": ["dia","tarde"],
+                    "clima":  ["calor","frio","templado"]
+                },
+
+                {
+                    "nombre": "derbi",
+                    "imagen:": "/",
+                    "estilo": "casual",
+                    "tiempo": ["dia","tarde"],
+                    "clima": "frio"
+                },
+
+                {
+                    "nombre": "sandalias",
+                    "imagen:": "/",
+                    "estilo": ["basico"],
+                    "tiempo": ["dia","tarde"],
+                    "clima":  "calor"
+                },
+
+
+                {
+                    "nombre": "botinesVestir",
+                    "imagen:": "/",
+                    "estilo": ["casual","elegante"],
+                    "tiempo": ["noche","tarde"],
+                    "clima":  "frio"
+                },
+                
+                {
+                    "nombre": "borcego",
+                    "imagen:": "/",
+                    "estilo": ["basico","casual"],
+                    "tiempo": ["dia","tarde"],
+                    "clima":  "frio"
+                },
+                
+                {
+                    "nombre": "alpargata",
+                    "imagen:": "/",
+                    "estilo": ["casual","basico"],
+                    "tiempo": ["dia","tarde"],
+                    "clima":  "calor"
+                },
+                
+                {
+                    "nombre": "zapatoOxford",
+                    "imagen:": "/",
+                    "estilo": ["casual", "elegante"],
+                    "tiempo": ["tarde","noche"],
+                    "clima":  ["calor","frio","templado"]
+                },
+                
+                {
+                    "nombre": "zapatoBrogue" ,
+                    "imagen:": "/",
+                    "estilo": ["casual"],
+                    "tiempo": "tarde",
+                    "clima":  ["calor","frio","templado"]
+                }
+
+    ]
 }
+
+
