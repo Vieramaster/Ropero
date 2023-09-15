@@ -18,15 +18,16 @@ body {
   height: 100vh;
 }
 header {
-  background-color: #222831;
-  height: 3.5rem;
+  
+  height: 4rem;
   display: flex;
   justify-content: space-between;
-  color: white;
+  color: #222831;
 }
 
 .header__logo{
   margin: auto 3rem;
+  
 }
 
 .header__nav ul {
@@ -39,19 +40,34 @@ header {
 }
 
 .header__nav a {
-  color: white;
-  font-weight: 500;
+  color: #222831;
+  font-weight: 600;
 }
 
 .header__responsive{
   display: none;
 }
+
+.header__nav li:last-child{
+  background-color: #00ADB5;
+  height: 3rem;
+  width: 8rem;
+  display: grid;
+  place-items: center;
+  border-radius: 15px;
+  
+
+}
+.header__nav li:last-child a{
+  height: auto;
+  width: auto;
+  color: #EEEEEE;
+}
 /*------------------------------------------MODAL--------------------------------------------------------*/
 .login-box {
-  position: absolute;
- margin: auto;
-  width: 400px;
-  padding: 40px;
+  margin: auto;
+  width: 25rem;
+  padding: 2.5rem;
   
   
   background-color: #222831;
@@ -123,6 +139,8 @@ header {
   margin-top: 40px;
   letter-spacing: 3px;
   width: 10rem;
+  border-bottom: 1.5px #fff solid;
+  
 }
 
 .login-box a:hover {
@@ -131,89 +149,6 @@ header {
   border-radius: 5px;
 }
 
-.login-box a span {
-  position: absolute;
-  display: block;
-}
-
-.login-box a span:nth-child(1) {
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #fff);
-  animation: btn-anim1 1.5s linear infinite;
-}
-
-@keyframes btn-anim1 {
-  0% {
-    left: -100%;
-  }
-
-  50%,100% {
-    left: 100%;
-  }
-}
-
-.login-box a span:nth-child(2) {
-  top: -100%;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(180deg, transparent, #fff);
-  animation: btn-anim2 1.5s linear infinite;
-  animation-delay: .375s
-}
-
-@keyframes btn-anim2 {
-  0% {
-    top: -100%;
-  }
-
-  50%,100% {
-    top: 100%;
-  }
-}
-
-.login-box a span:nth-child(3) {
-  bottom: 0;
-  right: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(270deg, transparent, #fff);
-  animation: btn-anim3 1.5s linear infinite;
-  animation-delay: .75s
-}
-
-@keyframes btn-anim3 {
-  0% {
-    right: -100%;
-  }
-
-  50%,100% {
-    right: 100%;
-  }
-}
-
-.login-box a span:nth-child(4) {
-  bottom: -100%;
-  left: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(360deg, transparent, #fff);
-  animation: btn-anim4 1.5s linear infinite;
-  animation-delay: 1.125s
-}
-
-@keyframes btn-anim4 {
-  0% {
-    bottom: -100%;
-  }
-
-  50%,100% {
-    bottom: 100%;
-  }
-}
 
 .login-box p:last-child {
   color: #aaa;
@@ -223,6 +158,7 @@ header {
 .login-box a.a2 {
   color: #fff;
   text-decoration: none;
+  
 }
 
 .login-box a.a2:hover {
@@ -231,7 +167,9 @@ header {
   border-radius: 5px;
 }
 /*-----------------------------------CUERPO-------------------------------------------------------------*/
-
+main{
+  display: flex;
+}
 .box {
   margin-top: 3rem;
   width: 40%;
@@ -279,7 +217,7 @@ header {
 .block2__wristwatch:hover,
 .block3__pants:hover,
 .block3__shoe:hover {
-  border: 1px solid black;
+  border: 1px solid #00ADB5;
   transform: scale(1.05);
 
 }
@@ -342,7 +280,24 @@ header {
   width: 10rem;
   height: 7rem;
 }
-/*-------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------box-ropa-----------------------------------------------*/
+
+.box2{
+  display: flex;
+  margin-top: 3rem;
+  width: 60%;
+  height: auto;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  transition: 0.3s all ease;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+
+/*----------------------------------------------MEDIA---------------------------------------------*/
 
 @media (width <= 1200px) {
   .block2,
@@ -400,10 +355,21 @@ header {
 }
 
 @media (width <= 768px) {
+  main{
+    display: flex;
+    flex-direction: column;
+  }
   .box {
     width: 100%;
+    
   }
 
+  .box2{
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+  
   .header__responsive{
     display: block;
     height: 100%;
@@ -446,7 +412,7 @@ header {
 
   .block3__shoe {
     width: 8rem;
-    height: ;
+   
   }
 
 
