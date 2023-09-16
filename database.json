@@ -217,7 +217,7 @@
     "cuello":[
                 {
                     "nombre": "collarCadenaChica",
-                    "imagen": "/",
+                    "imagen": "/images/extra/necklace.webp",
                     "estilo": ["casual","elegante"],
                     "tiempo": ["dia", "tarde", "noche"],
                     "clima":  ["templado", "calor"]
@@ -225,7 +225,7 @@
 
                 {
                     "nombre": "collarCadenaGrande",
-                    "imagen": "/",
+                    "imagen": "/images/extra/necklace.webp",
                     "estilo": "casual",
                     "tiempo": ["dia","tarde","noche"],
                     "clima":  ["templado", "calor"]
@@ -233,7 +233,7 @@
                 
                 {
                     "nombre": "collarPelotas",
-                    "imagen": "/",
+                    "imagen": "/images/extra/necklace.webp",
                     "estilo": "casual",
                     "tiempo": ["dia", "tarde", "noche"],
                     "clima":  ["templado", "calor"]
@@ -241,7 +241,7 @@
                 
                 {
                     "nombre": "collarObjeto",
-                    "imagen": "/",
+                    "imagen": "/images/extra/necklace.webp",
                     "estilo": ["casual", "basico"],
                     "tiempo": ["dia","tarde","noche"],
                     "clima": ["templado", "frio"] 
@@ -249,7 +249,7 @@
                 
                 {
                     "nombre": "collarMadera",
-                    "imagen": "/",
+                    "imagen": "/images/extra/necklace.webp",
                     "estilo": ["basico","casual"],
                     "tiempo": ["dia", "tarde"],
                     "clima":  "calor"
@@ -257,7 +257,7 @@
                 
                 {
                     "nombre": "bufanda",
-                    "imagen": "/",
+                    "imagen": "/images/extra/necklace.webp",
                     "estilo": ["casual","basico","elegante"],
                     "tiempo": ["dia", "tarde", "noche"],
                     "clima": "frio"
@@ -273,7 +273,7 @@
 
                 {
                     "nombre": "Vestir",
-                    "imagen": "/",
+                    "imagen": "/images/extra/belt.webp",
                     "estilo": "elegante",
                     "tiempo": "noche",
                     "clima":  ["frio", "calor"]
@@ -281,7 +281,7 @@
 
                 {
                     "nombre": "tradicional",
-                    "imagen": "/",
+                    "imagen": "/images/extra/belt.webp",
                     "estilo": ["casual", "basico"],
                     "tiempo": ["dia", "tarde", "noche"],
                     "clima":  ["frio", "templado", "calor"]
@@ -289,7 +289,7 @@
 
                 {
                     "nombre": "tela",
-                    "imagen": "/",
+                    "imagen": "/images/extra/belt.webp",
                     "estilo": ["casual", "basico"],
                     "tiempo": ["dia", "tarde"],
                     "clima":  ["templado", "calor"]
@@ -297,7 +297,7 @@
                 
                 {
                     "nombre": "jean",
-                    "imagen": "/",
+                    "imagen": "/images/extra/belt.webp",
                     "estilo": ["casual", "basico"],
                     "tiempo": ["dia", "tarde"],
                     "clima":  ["frio", "templado", "calor"]
@@ -305,7 +305,7 @@
                 
                 {
                     "nombre": "trenzados",
-                    "imagen": "/",
+                    "imagen": "/images/extra/belt.webp",
                     "estilo": "casual",
                     "tiempo": ["dia", "tarde"],
                     "clima":  ["frio", "templado", "calor"]
@@ -318,7 +318,7 @@
 
                 {
                     "nombre": "deportivo",
-                    "imagen": "/",
+                    "imagen": "/images/extra/wristwatch.webp",
                     "estilo": "deportivo",
                     "tiempo": ["dia", "tarde"],
                     "clima":  ["frio", "templado", "calor"]
@@ -327,7 +327,7 @@
         
                 {
                     "nombre": "aviador",
-                    "imagen": "/",
+                    "imagen": "/images/extra/wristwatch.webp",
                     "estilo": "casual",
                     "tiempo": ["tarde", "dia"],
                     "clima":  ["frio", "templado", "calor"]
@@ -335,7 +335,7 @@
                 
                 {
                     "nombre": "racing",
-                    "imagen": "/",
+                    "imagen": "/images/extra/wristwatch.webp",
                     "estilo": "casual",
                     "tiempo": ["dia", "tarde"],
                     "clima":   ["frio", "templado", "calor"]
@@ -343,7 +343,7 @@
                 
                 {
                     "nombre": "dress",
-                    "imagen": "/",
+                    "imagen": "/images/extra/wristwatch.webp",
                     "estilo": "elegante",
                     "tiempo": ["noche", "tarde"],
                     "clima":   ["frio", "templado", "calor"]
@@ -351,19 +351,19 @@
 
                 {
                     "nombre": "CorreaTela",
-                    "imagen": "/",
+                    "imagen": "/images/extra/wristwatch.webp",
                     "estilo": "casual",
                     "tiempo": ["dia", "tarde"],
                     "clima":["frio", "templado", "calor"]
                 }
             ],
 
-    "pantalones":[
+    "pantalon":[
 
 
                 {
                     "nombre": "jean/Gabardina",
-                    "imagen": "/",
+                    "imagen": "/images/extra/pants.webp",
                     "estilo": ["casual", "basico"],
                     "tiempo": ["dia","tarde"],
                     "clima":  ["frio","templado","calor"]
@@ -371,7 +371,7 @@
 
                 {
                     "nombre": "chino",
-                    "imagen": "/",
+                    "imagen": "/images/extra/pants.webp",
                     "estilo": ["casual", "elegante"],
                     "tiempo": ["tarde","noche"],
                     "clima":  ["frio","calor","templado"]
@@ -379,7 +379,7 @@
 
                 {
                     "nombre": "cargo",
-                    "imagen": "/",
+                    "imagen": "/images/extra/pants.webp",
                     "estilo": "basico",
                     "tiempo": ["dia","tarde"],
                     "clima":  ["frio","calor","templado"]
@@ -387,7 +387,7 @@
 
                 {
                     "nombre": "lino",
-                    "imagen": "/",
+                    "imagen": "/images/extra/pants.webp",
                     "estilo": ["casual","basico"],
                     "tiempo": ["dia","tarde"],
                     "clima":  "calor"
@@ -395,7 +395,7 @@
 
                 {
                     "nombre": "babucha",
-                    "imagen": "/",
+                    "imagen": "/images/extra/pants.webp",
                     "estilo": ["casual", "basico"],
                     "tiempo": ["dia","tarde"],
                     "clima":  ["templado","calor"]
@@ -403,7 +403,7 @@
 
                 {
                     "nombre": "jogin",
-                    "imagen": "/",
+                    "imagen": "/images/extra/pants.webp",
                     "estilo": ["basico","deportivo"],
                     "tiempo": ["dia","tarde"],
                     "clima":  ["frio","templado"]
@@ -413,7 +413,7 @@
 
                 {
                     "nombre": "bermudaAlgodon",
-                    "imagen": "/",
+                    "imagen": "/images/extra/pants.webp",
                     "estilo": "basico",
                     "tiempo": ["dia","tarde"],
                     "clima":  "calor"
@@ -421,7 +421,7 @@
 
                 {
                     "nombre": "bermudaGabardina/jean",
-                    "imagen": "/",
+                    "imagen": "/images/extra/pants.webp",
                     "estilo": "casual",
                     "tiempo": ["tarde","dia"],
                     "clima":  "calor"
@@ -433,7 +433,7 @@
 
                 {
                     "nombre": "deportivo",
-                    "imagen": "/",
+                    "imagen": "/images/extra/calzado.webp",
                     "estilo": "deportivo",
                     "tiempo": ["dia","tarde"],
                     "clima":  ["calor","frio","templado"]
@@ -442,7 +442,7 @@
 
                 {
                     "nombre": "urbano",
-                    "imagen": "/",
+                    "imagen": "/images/extra/calzado.webp",
                     "estilo": "casual",
                     "tiempo": ["dia","tarde"],
                     "clima":  ["calor","frio","templado"]
@@ -450,7 +450,7 @@
 
                 {
                     "nombre": "nautico",
-                    "imagen": "/",
+                    "imagen": "/images/extra/calzado.webp",
                     "estilo": "casual",
                     "tiempo": ["dia","tarde"],
                     "clima": ["calor","frio","templado"]
@@ -458,7 +458,7 @@
 
                 {
                     "nombre": "sneakers",
-                    "imagen": "/",
+                    "imagen": "/images/extra/calzado.webp",
                     "estilo": ["basico","casual"],
                     "tiempo": ["dia","tarde"],
                     "clima":  ["calor","frio","templado"]
@@ -466,7 +466,7 @@
 
                 {
                     "nombre": "derbi",
-                    "imagen": "/",
+                    "imagen": "/images/extra/calzado.webp",
                     "estilo": "casual",
                     "tiempo": ["dia","tarde"],
                     "clima": "frio"
@@ -474,7 +474,7 @@
 
                 {
                     "nombre": "sandalias",
-                    "imagen": "/",
+                    "imagen": "/images/extra/calzado.webp",
                     "estilo": ["basico"],
                     "tiempo": ["dia","tarde"],
                     "clima":  "calor"
@@ -483,7 +483,7 @@
 
                 {
                     "nombre": "botinesVestir",
-                    "imagen": "/",
+                    "imagen": "/images/extra/calzado.webp",
                     "estilo": ["casual","elegante"],
                     "tiempo": ["noche","tarde"],
                     "clima":  "frio"
@@ -491,7 +491,7 @@
                 
                 {
                     "nombre": "borcego",
-                    "imagen": "/",
+                    "imagen": "/images/extra/calzado.webp",
                     "estilo": ["basico","casual"],
                     "tiempo": ["dia","tarde"],
                     "clima":  "frio"
@@ -499,7 +499,7 @@
                 
                 {
                     "nombre": "alpargata",
-                    "imagen": "/",
+                    "imagen": "/images/extra/calzado.webp",
                     "estilo": ["casual","basico"],
                     "tiempo": ["dia","tarde"],
                     "clima":  "calor"
@@ -507,7 +507,7 @@
                 
                 {
                     "nombre": "zapatoOxford",
-                    "imagen": "/",
+                    "imagen": "/images/extra/calzado.webp",
                     "estilo": ["casual", "elegante"],
                     "tiempo": ["tarde","noche"],
                     "clima":  ["calor","frio","templado"]
@@ -515,7 +515,7 @@
                 
                 {
                     "nombre": "zapatoBrogue" ,
-                    "imagen": "/",
+                    "imagen": "/images/extra/calzado.webp",
                     "estilo": ["casual"],
                     "tiempo": "tarde",
                     "clima":  ["calor","frio","templado"]

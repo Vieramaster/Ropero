@@ -179,14 +179,14 @@ main{
   align-items: center;
 }
 
-.block2__necklace,
+.block2__cuello,
 .block1__top,
 .block1__jacket,
-.block2__belt,
+.block2__cinturon,
 .block2__bracelet,
-.block2__wristwatch,
-.block3__pants,
-.block3__shoe {
+.block2__reloj,
+.block3__pantalon,
+.block3__calzado {
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -199,24 +199,24 @@ main{
 
 }
 
-.block2__necklace img,
+.block2__cuello img,
 .block1__top img,
 .block1__jacket img,
-.block2__belt img,
+.block2__cinturon img,
 .block2__bracelet img,
-.block2__wristwatch img,
-.block3__pants img,
-.block3__shoe img {
+.block2__reloj img,
+.block3__pantalon img,
+.block3__calzado img {
   width: 80%;
 }
-.block2__necklace:hover,
+.block2__cuello:hover,
 .block1__top:hover,
 .block1__jacket:hover,
-.block2__belt:hover,
+.block2__cinturon:hover,
 .block2__bracelet:hover,
-.block2__wristwatch:hover,
-.block3__pants:hover,
-.block3__shoe:hover {
+.block2__reloj:hover,
+.block3__pantalon:hover,
+.block3__calzado:hover {
   border: 1px solid #00ADB5;
   transform: scale(1.05);
 
@@ -255,13 +255,13 @@ main{
   align-items: center;
 }
 
-.block2__belt {
+.block2__cinturon{
   width: 12rem;
   height: 5rem;
 }
 
-.block2__wristwatch,
-.block2__necklace {
+.block2__reloj,
+.block2__cuello {
   width: 6rem;
   height: 6rem;
 }
@@ -271,12 +271,12 @@ main{
   flex-direction: column;
 }
 
-.block3__pants {
+.block3__pantalon {
   width: 12rem;
   height: 15rem;
 }
 
-.block3__shoe {
+.block3__calzado {
   width: 10rem;
   height: 7rem;
 }
@@ -307,48 +307,48 @@ main{
     margin-top: 0.75rem;
   }
 
-  .block2__necklace,
-  .block2__wristwatch {
+  .block2__cuello,
+  .block2__reloj{
     width: 5rem;
     height: 5rem;
   }
 
   .block1__top,
   .block1__jacket,
-  .block3__pants {
+  .block3_pantalon{
     width: 10rem;
     height: 13.5rem;
   }
 
-  .block2__belt {
+  .block2__cinturon{
     width: 10rem;
   }
 
  
 
-  .block3__shoe {
+  .block3__calzado{
     width: 10rem;
     height: 7rem;
   }
 }
 
 @media (width <= 900px) {
-  .block2__necklace,
-  .block2__wristwatch {
+  .block2__cuello,
+  .block2__reloj {
     height: 4rem;
     width: 4rem;
   }
 
-  .block2__belt {
+  .block2__cinturon {
     width: 9rem;
   }
   .block1__top,
   .block1__jacket,
-  .block3__pants {
+  .block3__pantalon {
     width: 9rem;
     height: 12rem;
   }
-  .block3__shoe {
+  .block3__calzado {
     width: 8rem;
     height: 5.5rem;
   }
@@ -390,8 +390,8 @@ main{
     margin-top: 0.5rem;
   }
 
-  .block2__necklace,
-  .block2__wristwatch {
+  .block2__cuello,
+  .block2__reloj {
     width: 4rem;
     height: 4rem;
     margin: 0 0.5rem;
@@ -399,18 +399,18 @@ main{
 
   .block1__top,
   .block1__jacket,
-  .block3__pants {
+  .block3__pantalon{
     width: 7.5rem;
     height: 11rem;
   }
 
-  .block2__belt {
+  .block2__cinturon {
     width: 8rem;
   }
 
 
 
-  .block3__shoe {
+  .block3__calzado {
     width: 8rem;
    
   }
