@@ -183,10 +183,16 @@ main{
 .block1__top,
 .block1__jacket,
 .block2__cinturon,
-.block2__bracelet,
 .block2__reloj,
 .block3__pantalon,
-.block3__calzado {
+.block3__calzado,
+.box2__cuello,
+.box2__top,
+.box2__abrigo,
+.box2__cinturon,
+.box2__reloj,
+.box2__pantalon,
+.box2__calzado {
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -213,10 +219,17 @@ main{
 .block1__top:hover,
 .block1__jacket:hover,
 .block2__cinturon:hover,
-.block2__bracelet:hover,
 .block2__reloj:hover,
 .block3__pantalon:hover,
-.block3__calzado:hover {
+.block3__calzado:hover,
+.box2__cuello:hover,
+.box2__top:hover,
+.box2__jacket:hover,
+.box2__cinturon:hover,
+.box2__reloj:hover,
+.box2__pantalon:hover,
+.box2__calzado:hover  
+{
   border: 1px solid #00ADB5;
   transform: scale(1.05);
 
@@ -232,14 +245,12 @@ main{
   gap: 1.5rem;
 }
 
-.block1__top {
+.block1__top, .block1__jacket {
   width: 12rem;
   height: 15rem;
 }
 
 .block1__jacket {
-  width: 12rem;
-  height: 15rem;
   margin-right: 1rem;
 }
 
@@ -288,12 +299,18 @@ main{
   margin-top: 3rem;
   width: 60%;
   height: auto;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+  gap: 1rem;
+  flex-wrap: wrap-reverse;
   transition: 0.3s all ease;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
 
+  }
+
+  .box2__top, .box2__abrigo{
+    width: 9.6rem;
+    height: 12rem;
+    
   }
 
 

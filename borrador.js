@@ -31,8 +31,19 @@ function cargarImagenes(imagenes, tipoRopa) {
     imagenDiv.appendChild(imagenRuta);
     box2.appendChild(imagenDiv);
     imagenRuta.style.width = "80%";
-    imagenDiv.classList.add(`box2__${tipoRopa}`)
-       
+    /*imagenDiv.classList.add(`block__${tipoRopa}`)*/
+        if (tipoRopa === "top" || tipoRopa === "abrigo") {
+          imagenDiv.classList.add("block1__top");
+        } else if (tipoRopa === "cuello") {
+          imagenDiv.classList.add("block2__cuello");
+        } else if (tipoRopa === "cinturon") {
+          imagenDiv.classList.add("block2__cinturon");
+        } else if (tipoRopa === "reloj") {
+          imagenDiv.classList.add("block2__reloj");
+        } else if (tipoRopa === "pantalon") {
+          imagenDiv.classList.add("block3__pantalon");
+        } else if (tipoRopa === "calzado")
+          imagenDiv.classList.add("block3__calzado");
 
           imagenRuta.addEventListener("click",() => {
             let imagenSelecionada = document.querySelector(".block3__calzado")
