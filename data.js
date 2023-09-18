@@ -1,4 +1,5 @@
 /*Modal cuenta*/
+
 const BtnOpenAcc = document.querySelector("#btn-open-acc");
 const modalAcc = document.querySelector("#modal-acc");
 
@@ -18,13 +19,17 @@ function datosRopa() {
 }
 
 
-const boxTop = document.querySelector(".box2__top");
+const box1 = document.querySelector(".box")
 const box2 = document.querySelector(".box2");
+const Box1Copy = box1.cloneNode(true)
+
+
 
 /*-------------------------- funciones------------------------------*/
 
 function cargarImagenes(imagenes, tipoRopa) {
   imagenes.forEach((imagen) => {
+    
     let imagenRuta = document.createElement("img");
     imagenRuta.src = imagen;
     let imagenDiv = document.createElement("div");
@@ -32,22 +37,25 @@ function cargarImagenes(imagenes, tipoRopa) {
     box2.appendChild(imagenDiv);
     imagenRuta.style.width = "80%";
     imagenDiv.classList.add(`box2__${tipoRopa}`)
-       
-
+    let imagenSelecionada = document.querySelector(`#${tipoRopa}`)   
+    
           imagenRuta.addEventListener("click",() => {
-            let imagenSelecionada = document.querySelector(".block3__calzado")
+            
             imagenSelecionada.innerHTML = ""
-            imagenSelecionada.appendChild(imagenRuta.cloneNode(true))
-
-      })    
+            imagenSelecionada.appendChild(imagenRuta.cloneNode(true))    
+      })
+      
     }
     );
   
 }
 
+
+
 /*paso 1, agregar las img*/
 
 const btnTop = document.querySelector(".block1__top");
+
 function cargarTop() {
   box2.innerHTML = "";
   datosRopa().then((datos) => {
@@ -55,7 +63,11 @@ function cargarTop() {
     cargarImagenes(imagenes, "top");
   });
 }
-btnTop.addEventListener("click", cargarTop);
+btnTop.addEventListener("click", ()=>{
+  box1.innerHTML = Box1Copy
+  cargarTop();
+  
+});
 
 /*---------------------------------------------------*/
 
@@ -69,8 +81,7 @@ function cargarAbrigo() {
   });
 }
 
-btnAbrigo.addEventListener("click", cargarAbrigo);
-
+btnAbrigo.addEventListener("click", cargarAbrigo)
 /*---------------------------------------------------*/
 
 const btnCuello = document.querySelector("#cuello");
@@ -142,6 +153,7 @@ function cargarCalzado() {
 
 
 btnCalzado.addEventListener("click", cargarCalzado);
+
 
 
 
