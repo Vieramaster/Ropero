@@ -111,10 +111,7 @@ function cargarImagenes(imagenes, tipoRopa) {
     );
   
 }
-function botones(){
-    btnAbrigo.addEventListener("click", cargarAbrigo)
 
-}
 
 
 /*paso 1, agregar las img*/
