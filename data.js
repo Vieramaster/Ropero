@@ -9,7 +9,68 @@ BtnOpenAcc.addEventListener("click", () => {
 window.onclick = function (event) {
   if (event.target == modalAcc) modalAcc.close();
 };
+/* CIRCULO CROMATICO*/
 
+customElements.define(
+  "color-picker",
+  class extends HTMLElement {
+      #colors = [
+        "#000000",
+        "#FFFFFF",
+        "#FF0000",
+        "#00FF00",
+        "#0000FF",
+        "#FFFF00",
+        "#00FFFF",
+        "#FF00FF",
+        "#C0C0C0",
+        "#808080",
+        "#800000",
+        "#808000",
+        "#008000",
+        "#800080",
+        "#008080",
+        "#000080",
+        "#800000",
+        "#8B0000",
+        "#A52A2A",
+        "#B22222",
+        "#000000",
+  "#FFFFFF",
+  "#FF0000",
+  "#00FF00",
+  "#0000FF",
+  "#FFFF00",
+  "#00FFFF",
+  "#FF00FF",
+  "#C0C0C0",
+  "#808080",
+  "#800000",
+  "#808000",
+  "#008000",
+  "#800080",
+  "#008080",
+  "#000080",
+  "#800000",
+  "#8B0000",
+  "#A52A2A",
+  "#B22222"
+      ];
+
+      connectedCallback() {
+          this.style.setProperty("--count", this.#colors.length);
+
+          this.#colors.forEach((color, index) => {
+              const button = document.createElement("button");
+
+              button.style.backgroundColor = color;
+              button.style.setProperty("--index", index);
+
+              this.appendChild(button);
+          });
+      }
+  },
+);
 /* SUSTRAER LOS ARRAYS*/
 
 function datosRopa() {
@@ -40,16 +101,20 @@ function cargarImagenes(imagenes, tipoRopa) {
     let imagenSelecionada = document.querySelector(`#${tipoRopa}`)   
     
           imagenRuta.addEventListener("click",() => {
-            
             imagenSelecionada.innerHTML = ""
-            imagenSelecionada.appendChild(imagenRuta.cloneNode(true))    
+            imagenSelecionada.appendChild(imagenRuta.cloneNode(true))  
+            box2.innerHTML = ""  
+
       })
       
     }
     );
   
 }
+function botones(){
+    btnAbrigo.addEventListener("click", cargarAbrigo)
 
+}
 
 
 /*paso 1, agregar las img*/
@@ -64,7 +129,7 @@ function cargarTop() {
   });
 }
 btnTop.addEventListener("click", ()=>{
-  box1.innerHTML = Box1Copy
+  
   cargarTop();
   
 });

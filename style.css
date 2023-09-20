@@ -1,33 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400&family=Montserrat:ital,wght@0,400;0,500;1,300;1,400&family=Overpass:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@300;400&family=Montserrat:ital,wght@0,400;0,500;1,300;1,400&family=Overpass:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
-  
-  font-family: 'Montserrat', sans-serif;
-  
+
+  font-family: "Montserrat", sans-serif;
+
   text-decoration: none;
   list-style: none;
 }
-a{
+a {
   width: 100%;
   height: 100%;
 }
 body {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   width: 100vw;
   height: 100vh;
 }
 header {
-  
   height: 4rem;
   display: flex;
   justify-content: space-between;
   color: #222831;
 }
 
-.header__logo{
+.header__logo {
   margin: auto 3rem;
-  
 }
 
 .header__nav ul {
@@ -44,39 +42,36 @@ header {
   font-weight: 600;
 }
 
-.header__responsive{
+.header__responsive {
   display: none;
 }
 
-.header__nav li:last-child{
-  background-color: #00ADB5;
+.header__nav li:last-child {
+  background-color: #00adb5;
   height: 3rem;
   width: 8rem;
   display: grid;
   place-items: center;
   border-radius: 15px;
-  
-
 }
-.header__nav li:last-child a{
+.header__nav li:last-child a {
   height: auto;
   width: auto;
-  color: #EEEEEE;
+  color: #eeeeee;
 }
 /*------------------------------------------MODAL--------------------------------------------------------*/
 .login-box {
   margin: auto;
   width: 25rem;
   padding: 2.5rem;
-  
-  
+
   background-color: #222831;
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
 }
 
-.login-box::backdrop{
+.login-box::backdrop {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -114,7 +109,7 @@ header {
   font-size: 16px;
   color: #fff;
   pointer-events: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .login-box .user-box input:focus ~ label,
@@ -135,12 +130,11 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
   margin-top: 40px;
   letter-spacing: 3px;
   width: 10rem;
   border-bottom: 1.5px #fff solid;
-  
 }
 
 .login-box a:hover {
@@ -148,7 +142,6 @@ header {
   color: #272727;
   border-radius: 5px;
 }
-
 
 .login-box p:last-child {
   color: #aaa;
@@ -158,7 +151,6 @@ header {
 .login-box a.a2 {
   color: #fff;
   text-decoration: none;
-  
 }
 
 .login-box a.a2:hover {
@@ -167,7 +159,7 @@ header {
   border-radius: 5px;
 }
 /*-----------------------------------CUERPO-------------------------------------------------------------*/
-main{
+main {
   display: flex;
 }
 .box {
@@ -202,7 +194,6 @@ main{
   border-radius: 17px;
   cursor: pointer;
   transition: all 0.5s;
-
 }
 
 .block2__cuello img,
@@ -228,24 +219,22 @@ main{
 .box2__cinturon:hover,
 .box2__reloj:hover,
 .box2__pantalon:hover,
-.box2__calzado:hover  
-{
-  border: 1px solid #00ADB5;
+.box2__calzado:hover {
+  border: 1px solid #00adb5;
   transform: scale(1.05);
-
 }
 /*-------------------------------------------------------------------------------------------------------------*/
 
 .block1 {
   width: 100%;
-  
 
   display: flex;
   justify-content: center;
   gap: 1.5rem;
 }
 
-.block1__top, .block1__jacket {
+.block1__top,
+.block1__jacket {
   width: 12rem;
   height: 15rem;
 }
@@ -266,7 +255,7 @@ main{
   align-items: center;
 }
 
-.block2__cinturon{
+.block2__cinturon {
   width: 12rem;
   height: 5rem;
 }
@@ -294,7 +283,7 @@ main{
 
 /*-----------------------------------------------------box-ropa-----------------------------------------------*/
 
-.box2{
+.box2 {
   display: flex;
   margin-top: 3rem;
   width: 60%;
@@ -302,17 +291,15 @@ main{
   gap: 1rem;
   flex-wrap: wrap-reverse;
   transition: 0.3s all ease;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
+}
 
-  }
-
-  .box2__top, .box2__abrigo{
-    width: 9.6rem;
-    height: 12rem;
-    
-  }
-
+.box2__top,
+.box2__abrigo {
+  width: 9.6rem;
+  height: 12rem;
+}
 
 /*----------------------------------------------MEDIA---------------------------------------------*/
 
@@ -325,25 +312,23 @@ main{
   }
 
   .block2__cuello,
-  .block2__reloj{
+  .block2__reloj {
     width: 5rem;
     height: 5rem;
   }
 
   .block1__top,
   .block1__jacket,
-  .block3_pantalon{
+  .block3_pantalon {
     width: 10rem;
     height: 13.5rem;
   }
 
-  .block2__cinturon{
+  .block2__cinturon {
     width: 10rem;
   }
 
- 
-
-  .block3__calzado{
+  .block3__calzado {
     width: 10rem;
     height: 7rem;
   }
@@ -372,22 +357,21 @@ main{
 }
 
 @media (width <= 768px) {
-  main{
+  main {
     display: flex;
     flex-direction: column;
   }
   .box {
     width: 100%;
-    
   }
 
-  .box2{
+  .box2 {
     width: 100%;
     height: auto;
     margin-top: 5rem;
   }
-  
-  .header__responsive{
+
+  .header__responsive {
     display: block;
     height: 100%;
     width: 6rem;
@@ -396,7 +380,7 @@ main{
     fill: white;
   }
 
-  .header__nav{
+  .header__nav {
     display: none;
   }
 
@@ -416,7 +400,7 @@ main{
 
   .block1__top,
   .block1__jacket,
-  .block3__pantalon{
+  .block3__pantalon {
     width: 7.5rem;
     height: 11rem;
   }
@@ -425,13 +409,39 @@ main{
     width: 8rem;
   }
 
-
-
   .block3__calzado {
     width: 8rem;
-   
   }
+}
+/*----------------------------------------------*/
+.colores{
+  
+  width: 100%;
+  height: 100%;
 
-
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
 }
 
+color-picker {
+  position: relative;
+  width: 512px;
+  height: 512px;
+  display: block;
+}
+
+color-picker button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 3rem;
+  border: 0;
+  border-radius: 0.5rem;
+  transform: translateY(-50%)rotate(calc(var(--index)*(360deg/var(--count)) - 90deg));
+  transform-origin: 0 16px
+}

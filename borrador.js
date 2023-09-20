@@ -156,3 +156,16 @@ btnCalzado.addEventListener("click", cargarCalzado);
 
 
 
+// Supongamos que tus spans tienen una clase 'colorSpan'
+var spans = document.getElementsByClassName('colorSpan');
+
+// Añadimos un event listener a cada span
+for (var i = 0; i < spans.length; i++) {
+    spans[i].addEventListener('click', function() {
+        // Al hacer clic, obtenemos el color de fondo del span
+        var color = this.style.backgroundColor;
+        
+        // Ahora puedes usar el código de color
+        console.log(color);
+    });
+}
