@@ -12,7 +12,7 @@
         
     {
         "nombre": "lila",
-        "hex": "#C8A2C8."
+        "hex": "#C8A2C8"
     },
         
     {
@@ -120,10 +120,6 @@
         "hex": "#FFFFE4B5"
     },
     
-    {
-        "nombre":"hueso",
-        "hex": "#fcfcfc"
-    },
 
     {
         "nombre": "blanco",
@@ -178,7 +174,7 @@
     {
         "nombre":"magenta",
         "hex": "#d8197f"
-    },                
+    }             
 
 
 ]

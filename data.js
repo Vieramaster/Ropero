@@ -11,66 +11,6 @@ window.onclick = function (event) {
 };
 /* CIRCULO CROMATICO*/
 
-customElements.define(
-  "color-picker",
-  class extends HTMLElement {
-      #colors = [
-        "#000000",
-        "#FFFFFF",
-        "#FF0000",
-        "#00FF00",
-        "#0000FF",
-        "#FFFF00",
-        "#00FFFF",
-        "#FF00FF",
-        "#C0C0C0",
-        "#808080",
-        "#800000",
-        "#808000",
-        "#008000",
-        "#800080",
-        "#008080",
-        "#000080",
-        "#800000",
-        "#8B0000",
-        "#A52A2A",
-        "#B22222",
-        "#000000",
-  "#FFFFFF",
-  "#FF0000",
-  "#00FF00",
-  "#0000FF",
-  "#FFFF00",
-  "#00FFFF",
-  "#FF00FF",
-  "#C0C0C0",
-  "#808080",
-  "#800000",
-  "#808000",
-  "#008000",
-  "#800080",
-  "#008080",
-  "#000080",
-  "#800000",
-  "#8B0000",
-  "#A52A2A",
-  "#B22222"
-      ];
-
-      connectedCallback() {
-          this.style.setProperty("--count", this.#colors.length);
-
-          this.#colors.forEach((color, index) => {
-              const button = document.createElement("button");
-
-              button.style.backgroundColor = color;
-              button.style.setProperty("--index", index);
-
-              this.appendChild(button);
-          });
-      }
-  },
-);
 /* SUSTRAER LOS ARRAYS*/
 
 function datosRopa() {
@@ -79,40 +19,57 @@ function datosRopa() {
     .catch(console.error);
 }
 
-
-const box1 = document.querySelector(".box")
+function datosColor() {
+  return fetch("./dataColor.json")
+    .then((response) => response.json())
+    .catch(console.error);
+}
+const box1 = document.querySelector(".box");
 const box2 = document.querySelector(".box2");
-const Box1Copy = box1.cloneNode(true)
-
-
+const Box1Copy = box1.cloneNode(true);
 
 /*-------------------------- funciones------------------------------*/
 
-function cargarImagenes(imagenes, tipoRopa) {
-  imagenes.forEach((imagen) => {
-    
-    let imagenRuta = document.createElement("img");
-    imagenRuta.src = imagen;
-    let imagenDiv = document.createElement("div");
-    imagenDiv.appendChild(imagenRuta);
-    box2.appendChild(imagenDiv);
-    imagenRuta.style.width = "80%";
-    imagenDiv.classList.add(`box2__${tipoRopa}`)
-    let imagenSelecionada = document.querySelector(`#${tipoRopa}`)   
-    
-          imagenRuta.addEventListener("click",() => {
-            imagenSelecionada.innerHTML = ""
-            imagenSelecionada.appendChild(imagenRuta.cloneNode(true))  
-            box2.innerHTML = ""  
-
-      })
-      
-    }
-    );
-  
+function cargarColores() {
+  let bloqueBoton = document.createElement("div");
+  bloqueBoton.classList.add("bloqueBoton");
+  box2.appendChild(bloqueBoton);
+  datosColor().then((datos) => {
+    datos.forEach((dato) => {
+      let nombre = dato.nombre;
+      let hex = dato.hex;
+      let button = document.createElement("button");
+      button.title = nombre;
+      button.style.backgroundColor = hex;
+      button.classList.add("botonaso");
+      bloqueBoton.appendChild(button);
+    });
+  });
 }
 
 
+
+function cargarImagenes(imagenes, tipoRopa) {
+  imagenes.forEach((imagen) => {
+    let imagenRuta = document.createElement("img");
+    imagenRuta.src = imagen;
+    let imagenButton = document.createElement("button");
+    imagenButton.appendChild(imagenRuta);
+    box2.appendChild(imagenButton);
+    imagenRuta.style.width = "80%";
+    imagenButton.classList.add(`box2__${tipoRopa}`);
+    let imagenSelecionada = document.querySelector(`#${tipoRopa}`);
+
+    imagenRuta.addEventListener("click", () => {
+      imagenSelecionada.innerHTML = "";
+      imagenSelecionada.appendChild(imagenRuta.cloneNode(true));
+      box2.innerHTML = "";
+      cargarColores();
+      
+      /*imagenRuta.style.fill = "black"; SE PUEDE CON SVG*/
+    });
+  });
+}
 
 /*paso 1, agregar las img*/
 
@@ -125,10 +82,8 @@ function cargarTop() {
     cargarImagenes(imagenes, "top");
   });
 }
-btnTop.addEventListener("click", ()=>{
-  
+btnTop.addEventListener("click", () => {
   cargarTop();
-  
 });
 
 /*---------------------------------------------------*/
@@ -143,7 +98,7 @@ function cargarAbrigo() {
   });
 }
 
-btnAbrigo.addEventListener("click", cargarAbrigo)
+btnAbrigo.addEventListener("click", cargarAbrigo);
 /*---------------------------------------------------*/
 
 const btnCuello = document.querySelector("#cuello");
@@ -209,13 +164,7 @@ function cargarCalzado() {
   datosRopa().then((datos) => {
     let imagenes = datos.calzado.map((item) => item.imagen);
     cargarImagenes(imagenes, "calzado");
-          
   });
 }
 
-
 btnCalzado.addEventListener("click", cargarCalzado);
-
-
-
-

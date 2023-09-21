@@ -425,8 +425,23 @@ main {
   align-items: center;
   
   
+
 }
 
+
+
+.bloqueBoton{
+  width: 100%;
+  
+}
+
+.botonaso{
+  width: 3rem;
+  height: 3rem;
+}
+
+
+/*
 color-picker {
   position: relative;
   width: 512px;
