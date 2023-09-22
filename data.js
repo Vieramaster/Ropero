@@ -43,6 +43,11 @@ function cargarColores() {
       button.style.backgroundColor = hex;
       button.classList.add("botonaso");
       bloqueBoton.appendChild(button);
+
+      let buttons = document.querySelectorAll("buttons")
+
+      buttons.style.setp
+
     });
   });
 }
