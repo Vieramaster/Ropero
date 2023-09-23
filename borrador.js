@@ -126,106 +126,45 @@ btnReloj.addEventListener("click", cargarReloj);
 
 /*---------------------------------------------------*/
 
-const btnPantalon = document.querySelector(".block3__pantalon");
+function cargarColores(imagenSelecionada) {
+  let bloqueBoton = document.createElement("div");
+  bloqueBoton.classList.add("bloqueBoton");
+  box2.appendChild(bloqueBoton);
+  datosColor().then((datos) => {
+    datos.forEach((dato, index) => {
+      let nombre = dato.nombre;
+      let hex = dato.hex;
+      let button = document.createElement("button");
+      button.title = nombre;
+      button.style.backgroundColor = hex;
+      button.classList.add("botonaso");
+      bloqueBoton.appendChild(button);
 
-function cargarPantalon() {
-  box2.innerHTML = "";
-  datosRopa().then((datos) => {
-    let imagenes = datos.pantalon.map((item) => item.imagen);
-    cargarImagenes(imagenes, "pantalon");
-  });
-}
-
-btnPantalon.addEventListener("click", cargarPantalon);
-
-/*---------------------------------------------------*/
-
-const btnCalzado = document.querySelector(".block3__calzado");
-
-function cargarCalzado() {
-  box2.innerHTML = "";
-  datosRopa().then((datos) => {
-    let imagenes = datos.calzado.map((item) => item.imagen);
-    cargarImagenes(imagenes, "calzado");
-          
-  });
-}
-
-
-btnCalzado.addEventListener("click", cargarCalzado);
-
-
-
-// Supongamos que tus spans tienen una clase 'colorSpan'
-var spans = document.getElementsByClassName('colorSpan');
-
-// Añadimos un event listener a cada span
-for (var i = 0; i < spans.length; i++) {
-    spans[i].addEventListener('click', function() {
-        // Al hacer clic, obtenemos el color de fondo del span
-        var color = this.style.backgroundColor;
-        
-        // Ahora puedes usar el código de color
-        console.log(color);
+      button.addEventListener("click", () => {
+        imagenSelecionada.style.backgroundColor = hex;
+      });
     });
+  });
 }
-customElements.define(
-  "color-picker",
-  class extends HTMLElement {
-      #colors = [
-        "#000000",
-        "#FFFFFF",
-        "#FF0000",
-        "#00FF00",
-        "#0000FF",
-        "#FFFF00",
-        "#00FFFF",
-        "#FF00FF",
-        "#C0C0C0",
-        "#808080",
-        "#800000",
-        "#808000",
-        "#008000",
-        "#800080",
-        "#008080",
-        "#000080",
-        "#800000",
-        "#8B0000",
-        "#A52A2A",
-        "#B22222",
-        "#000000",
-  "#FFFFFF",
-  "#FF0000",
-  "#00FF00",
-  "#0000FF",
-  "#FFFF00",
-  "#00FFFF",
-  "#FF00FF",
-  "#C0C0C0",
-  "#808080",
-  "#800000",
-  "#808000",
-  "#008000",
-  "#800080",
-  "#008080",
-  "#000080",
-  "#800000",
-  "#8B0000",
-  "#A52A2A",
-  "#B22222"
-      ];
 
-      connectedCallback() {
-          this.style.setProperty("--count", this.#colors.length);
+function cargarImagenes(imagenes, tipoRopa) {
+  imagenes.forEach((imagen) => {
+    let imagenRuta = document.createElement("img");
+    imagenRuta.src = imagen;
+    let imagenButton = document.createElement("button");
+    imagenButton.appendChild(imagenRuta);
+    box2.appendChild(imagenButton);
+    imagenRuta.style.width = "80%";
+    imagenButton.classList.add(`box2__${tipoRopa}`);
+    let imagenSelecionada = document.querySelector(`#${tipoRopa}`);
 
-          this.#colors.forEach((color, index) => {
-              const button = document.createElement("button");
+    imagenRuta.addEventListener("click", () => {
+      imagenSelecionada.innerHTML = "";
+      let clonImagenRuta = imagenRuta.cloneNode(true);
+      imagenSelecionada.appendChild(clonImagenRuta);
 
-              button.style.backgroundColor = color;
-              button.style.setProperty("--index", index);
-
-              this.appendChild(button);
-          });
-      }
-  },
-);
+      box2.innerHTML = "";
+      cargarColores(clonImagenRuta);
+    });
+  });
+}

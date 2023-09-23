@@ -30,12 +30,12 @@ const Box1Copy = box1.cloneNode(true);
 
 /*-------------------------- funciones------------------------------*/
 
-function cargarColores() {
+function cargarColores(imagenSelecionada) {
   let bloqueBoton = document.createElement("div");
   bloqueBoton.classList.add("bloqueBoton");
   box2.appendChild(bloqueBoton);
   datosColor().then((datos) => {
-    datos.forEach((dato) => {
+    datos.forEach((dato, index) => {
       let nombre = dato.nombre;
       let hex = dato.hex;
       let button = document.createElement("button");
@@ -43,15 +43,13 @@ function cargarColores() {
       button.style.backgroundColor = hex;
       button.classList.add("botonaso");
       bloqueBoton.appendChild(button);
-
-      let buttons = document.querySelectorAll("buttons")
-
-      buttons.style.setp
-
+      
+      button.addEventListener("click", () => {
+        imagenSelecionada.style.backgroundColor = hex
+      });
     });
   });
 }
-
 
 
 function cargarImagenes(imagenes, tipoRopa) {
@@ -61,21 +59,20 @@ function cargarImagenes(imagenes, tipoRopa) {
     let imagenButton = document.createElement("button");
     imagenButton.appendChild(imagenRuta);
     box2.appendChild(imagenButton);
-    imagenRuta.style.width = "80%";
+    
     imagenButton.classList.add(`box2__${tipoRopa}`);
     let imagenSelecionada = document.querySelector(`#${tipoRopa}`);
 
     imagenRuta.addEventListener("click", () => {
       imagenSelecionada.innerHTML = "";
-      imagenSelecionada.appendChild(imagenRuta.cloneNode(true));
+      let clonImagenRuta = imagenRuta.cloneNode(true);
+      imagenSelecionada.appendChild(clonImagenRuta);
       box2.innerHTML = "";
-      cargarColores();
       
-      /*imagenRuta.style.fill = "black"; SE PUEDE CON SVG*/
+      cargarColores(clonImagenRuta);
     });
   });
 }
-
 /*paso 1, agregar las img*/
 
 const btnTop = document.querySelector(".block1__top");

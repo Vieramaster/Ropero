@@ -3,7 +3,7 @@
 
                 {   
                     "nombre": "hoodie",
-                    "imagen":"/images/imagenesArray/hoodie.webp",
+                    "imagen":"/images/TOPA.webp",
                     "estilo": ["deportivo","casual", "basico"],    
                     "tiempo":["dia", "tarde", "noche"],
                     "clima":["frio", "templado"] 
@@ -273,7 +273,7 @@
 
                 {
                     "nombre": "Vestir",
-                    "imagen": "/images/extra/belt.webp",
+                    "imagen": "/images/svg/belt.svg",
                     "estilo": "elegante",
                     "tiempo": "noche",
                     "clima":  ["frio", "calor"]
