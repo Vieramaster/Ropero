@@ -26,11 +26,19 @@ function datosColor() {
 }
 const box1 = document.querySelector(".box");
 const box2 = document.querySelector(".box2");
-const Box1Copy = box1.cloneNode(true);
+const fafa = {
+  top: {},
+};
 
 /*-------------------------- funciones------------------------------*/
 
-function cargarColores(imagenSelecionada) {
+function cargarColores(
+  imagenSelecionada,
+  imagen2,
+  imagenRuta,
+  imagen,
+  tipoRopa
+) {
   let bloqueBoton = document.createElement("div");
   bloqueBoton.classList.add("bloqueBoton");
   box2.appendChild(bloqueBoton);
@@ -38,41 +46,58 @@ function cargarColores(imagenSelecionada) {
     datos.forEach((dato, index) => {
       let nombre = dato.nombre;
       let hex = dato.hex;
+      let tono = dato.tono;
       let button = document.createElement("button");
       button.title = nombre;
       button.style.backgroundColor = hex;
       button.classList.add("botonaso");
       bloqueBoton.appendChild(button);
-      
+
       button.addEventListener("click", () => {
-        imagenSelecionada.style.backgroundColor = hex
+        fafa[tipoRopa].color = hex;
+        if (tono == "oscuro") {
+          imagenRuta.src = imagen2;
+          imagenSelecionada.style.backgroundColor = hex;
+        } else {
+          imagenRuta.src = imagen;
+          imagenSelecionada.style.backgroundColor = hex;
+        }
       });
     });
   });
 }
 
-
-function cargarImagenes(imagenes, tipoRopa) {
-  imagenes.forEach((imagen) => {
+function cargarImagenes(imagenesProp, tipoRopa) {
+  imagenesProp.forEach((ropa) => {
     let imagenRuta = document.createElement("img");
-    imagenRuta.src = imagen;
+    imagenRuta.src = ropa.imagen;
     let imagenButton = document.createElement("button");
     imagenButton.appendChild(imagenRuta);
     box2.appendChild(imagenButton);
-    
     imagenButton.classList.add(`box2__${tipoRopa}`);
     let imagenSelecionada = document.querySelector(`#${tipoRopa}`);
-
+    imagenRuta.style.width = "100%"
     imagenRuta.addEventListener("click", () => {
       imagenSelecionada.innerHTML = "";
-      let clonImagenRuta = imagenRuta.cloneNode(true);
-      imagenSelecionada.appendChild(clonImagenRuta);
+      /*fafa[tipoRopa] = ropa
+      if( tipoRopa === "abrigo"){
+        const top = document.getElementById("top")
+        top.style.backgroundColor = "#FFF"
+       */
+
+      imagenSelecionada.appendChild(imagenRuta);
       box2.innerHTML = "";
-      
-      cargarColores(clonImagenRuta);
+      cargarColores(
+        imagenSelecionada,
+        ropa.imagen2,
+        imagenRuta,
+        ropa.imagen,
+        tipoRopa
+      );
     });
   });
 }
+
 /*paso 1, agregar las img*/
 
 const btnTop = document.querySelector(".block1__top");
@@ -80,14 +105,10 @@ const btnTop = document.querySelector(".block1__top");
 function cargarTop() {
   box2.innerHTML = "";
   datosRopa().then((datos) => {
-    let imagenes = datos.top.map((item) => item.imagen);
-    cargarImagenes(imagenes, "top");
+    cargarImagenes(datos.top, "top");
   });
 }
-btnTop.addEventListener("click", () => {
-  cargarTop();
-});
-
+btnTop.addEventListener("click", cargarTop)
 /*---------------------------------------------------*/
 
 const btnAbrigo = document.querySelector("#abrigo");
@@ -95,8 +116,7 @@ const btnAbrigo = document.querySelector("#abrigo");
 function cargarAbrigo() {
   box2.innerHTML = "";
   datosRopa().then((datos) => {
-    let imagenes = datos.abrigo.map((item) => item.imagen);
-    cargarImagenes(imagenes, "abrigo");
+    cargarImagenes(datos.abrigo, "abrigo");
   });
 }
 
@@ -108,8 +128,7 @@ const btnCuello = document.querySelector("#cuello");
 function cargarCuello() {
   box2.innerHTML = "";
   datosRopa().then((datos) => {
-    let imagenes = datos.cuello.map((item) => item.imagen);
-    cargarImagenes(imagenes, "cuello");
+    cargarImagenes(datos.cuello, "cuello");
   });
 }
 
@@ -122,8 +141,7 @@ const btnCinturon = document.querySelector(".block2__cinturon");
 function cargarCinturon() {
   box2.innerHTML = "";
   datosRopa().then((datos) => {
-    let imagenes = datos.cinturon.map((item) => item.imagen);
-    cargarImagenes(imagenes, "cinturon");
+    cargarImagenes(datos.cinturon, "cinturon");
   });
 }
 
@@ -136,8 +154,7 @@ const btnReloj = document.querySelector(".block2__reloj");
 function cargarReloj() {
   box2.innerHTML = "";
   datosRopa().then((datos) => {
-    let imagenes = datos.reloj.map((item) => item.imagen);
-    cargarImagenes(imagenes, "reloj");
+    cargarImagenes(datos.reloj, "reloj");
   });
 }
 
@@ -150,8 +167,7 @@ const btnPantalon = document.querySelector(".block3__pantalon");
 function cargarPantalon() {
   box2.innerHTML = "";
   datosRopa().then((datos) => {
-    let imagenes = datos.pantalon.map((item) => item.imagen);
-    cargarImagenes(imagenes, "pantalon");
+    cargarImagenes(datos.pantalon, "pantalon");
   });
 }
 
@@ -164,9 +180,10 @@ const btnCalzado = document.querySelector(".block3__calzado");
 function cargarCalzado() {
   box2.innerHTML = "";
   datosRopa().then((datos) => {
-    let imagenes = datos.calzado.map((item) => item.imagen);
-    cargarImagenes(imagenes, "calzado");
+    cargarImagenes(datos.calzado, "rcalzado");
   });
 }
 
 btnCalzado.addEventListener("click", cargarCalzado);
+
+window.localStorage.setItem("top");

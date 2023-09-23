@@ -303,7 +303,7 @@ main {
   height: auto;
   gap: 1rem;
   flex-wrap: wrap-reverse;
-  transition: 0.3s all ease;
+  
   justify-content: space-around;
   align-items: center;
 }

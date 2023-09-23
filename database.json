@@ -3,7 +3,8 @@
 
                 {   
                     "nombre": "hoodie",
-                    "imagen":"/images/TOPA.webp",
+                    "imagen":"/images/imagenesjson/hoodie1.webp",
+                    "imagen2":"/images/imagenesjson/hoodie2.webp",
                     "estilo": ["deportivo","casual", "basico"],    
                     "tiempo":["dia", "tarde", "noche"],
                     "clima":["frio", "templado"] 
