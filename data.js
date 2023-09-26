@@ -28,6 +28,7 @@ const box1 = document.querySelector(".box");
 const box2 = document.querySelector(".box2");
 const fafa = {
   top: {},
+  abrigo:{}
 };
 
 /*-------------------------- funciones------------------------------*/
@@ -72,18 +73,16 @@ function cargarImagenes(imagenesProp, tipoRopa) {
     let imagenRuta = document.createElement("img");
     imagenRuta.src = ropa.imagen;
     let imagenButton = document.createElement("button");
+    let nombre = ropa.nombre
     imagenButton.appendChild(imagenRuta);
+    imagenButton.title = nombre
     box2.appendChild(imagenButton);
     imagenButton.classList.add(`box2__${tipoRopa}`);
+
     let imagenSelecionada = document.querySelector(`#${tipoRopa}`);
-    imagenRuta.style.width = "100%"
+    imagenRuta.style.width = "100%";
     imagenRuta.addEventListener("click", () => {
       imagenSelecionada.innerHTML = "";
-      /*fafa[tipoRopa] = ropa
-      if( tipoRopa === "abrigo"){
-        const top = document.getElementById("top")
-        top.style.backgroundColor = "#FFF"
-       */
 
       imagenSelecionada.appendChild(imagenRuta);
       box2.innerHTML = "";
@@ -108,7 +107,7 @@ function cargarTop() {
     cargarImagenes(datos.top, "top");
   });
 }
-btnTop.addEventListener("click", cargarTop)
+btnTop.addEventListener("click", cargarTop);
 /*---------------------------------------------------*/
 
 const btnAbrigo = document.querySelector("#abrigo");
@@ -180,10 +179,8 @@ const btnCalzado = document.querySelector(".block3__calzado");
 function cargarCalzado() {
   box2.innerHTML = "";
   datosRopa().then((datos) => {
-    cargarImagenes(datos.calzado, "rcalzado");
+    cargarImagenes(datos.calzado, "calzado");
   });
 }
 
 btnCalzado.addEventListener("click", cargarCalzado);
-
-window.localStorage.setItem("top");

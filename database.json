@@ -3,17 +3,17 @@
 
                 {   
                     "nombre": "hoodie",
-                    "imagen":"/images/imagenesjson/hoodie1.webp",
-                    "imagen2":"/images/imagenesjson/hoodie2.webp",
+                    "imagen":"/images/imagenesjson/top/hoodie1.webp",
+                    "imagen2":"/images/imagenesjson/top/hoodie2.webp",
                     "estilo": ["deportivo","casual", "basico"],    
                     "tiempo":["dia", "tarde", "noche"],
                     "clima":["frio", "templado"] 
                 },
 
                 {   
-                    "nombre": "buzoSinCapucha",
-                    "imagen": "/images/imagenesjson/buzoSinCapucha1.webp",
-                    "imagen2":"/images/imagenesjson/buzoSinCapucha2.webp",
+                    "nombre": "buzo sin Capucha",
+                    "imagen": "/images/imagenesjson/top/buzoSinCapucha1.webp",
+                    "imagen2":"/images/imagenesjson/top/buzoSinCapucha2.webp",
                     "estilo": ["deportivo", "casual", "basico"],    
                     "tiempo":["dia", "tarde", "noche"],
                     "clima":["calor", "templado"] 
@@ -21,8 +21,8 @@
             
                 {   
                     "nombre": "remera",
-                    "imagen": "/images/imagenesjson/remera1.webp",
-                    "imagen2": "/images/imagenesjson/remera2.webp",
+                    "imagen": "/images/imagenesjson/top/remera1.webp",
+                    "imagen2": "/images/imagenesjson/top/remera2.webp",
                     "estilo": ["deportivo", "casual", "basico"],  
                     "tiempo": ["dia", "tarde", "noche"],
                     "clima":  ["calor", "templado"] 
@@ -31,8 +31,8 @@
             
                 {
                     "nombre": "chomba",
-                    "imagen": "/images/imagenesjson/chomba1.webp",
-                    "imagen2": "/images/imagenesjson/chomba2.webp",
+                    "imagen": "/images/imagenesjson/top/chomba1.webp",
+                    "imagen2": "/images/imagenesjson/top/chomba2.webp",
                     "estilo": ["casual","elegante", "basico"],
                     "tiempo": ["dia","tarde","noche"],
                     "clima":  ["calor","templado"]
@@ -40,8 +40,8 @@
 
                 {
                     "nombre": "sweater",
-                    "imagen": "/images/imagenesjson/sweater1.webp",
-                    "imagen2": "/images/imagenesjson/sweater2.webp",
+                    "imagen": "/images/imagenesjson/top/sweater1.webp",
+                    "imagen2": "/images/imagenesjson/top/sweater2.webp",
                     "estilo": ["casual","elegante"],
                     "tiempo": ["dia","tarde","noche"],
                     "clima":  ["templado","frio"]
@@ -49,41 +49,34 @@
 
                 {
                     "nombre": "polera" ,
-                    "imagen": "/images/imagenesjson/polera1.webp",
-                    "imagen2": "/images/imagenesjson/polera2.webp",
+                    "imagen": "/images/imagenesjson/top/polera1.webp",
+                    "imagen2": "/images/imagenesjson/top/polera2.webp",
                     "estilo": ["casual","elegante", "basico"],
                     "tiempo": ["tarde","noche"],
                     "clima":  "frio"
                 },
 
                 {
-                    "nombre": "camisaCorta",
-                    "imagen": "/images/imagenesjson/camisaCorta1.webp",
-                    "imagen2": "/images/imagenesjson/camisaCorta2.webp",
+                    "nombre": "camisa manga corta",
+                    "imagen": "/images/imagenesjson/top/camisaCorta1.webp",
+                    "imagen2": "/images/imagenesjson/top/camisaCorta2.webp",
                     "estilo": ["casual","elegante", "basico"],
                     "tiempo": ["tarde","noche"],
                     "clima":  "calor"
                 },
                 
                 {
-                    "nombre": "camisaLarga",
-                    "imagen": "/images/imagenesArray/hoodie.webp",
-                    "estilo": ["casual","elegante"],
+                    "nombre": "camisa manga larga",
+                    "imagen": "/images/imagenesjson/top/camisalarga1.webp",
+                    "imagen2": "/images/imagenesjson/top/camisalarga2.webp",
                     "tiempo": ["tarde","noche"],
                     "clima":  ["frio","templado","calor"]
                 },
-
-                {
-                    "nombre": "camisaLino",
-                    "imagen": "/images/imagenesArray/hoodie.webp",
-                    "estilo": ["casual", "basico"],
-                    "tiempo": "tarde",
-                    "clima":  "calor"
-                },
                 
                 {
-                    "nombre": "remeraLarga" ,
-                    "imagen": "/images/imagenesArray/hoodie.webp",
+                    "nombre": "remera manga larga" ,
+                    "imagen": "/images/imagenesjson/top/remeralarga1.webp",
+                    "imagen2": "/images/imagenesjson/top/remeralarga2.webp",
                     "estilo": ["casual","deportivo", "basico"],
                     "tiempo": ["dia","tarde"],
                     "clima":  "frio"
@@ -94,7 +87,8 @@
     "abrigo":[
                 {
                     "nombre": "camperaJean/gabardina",
-                    "imagen": "/images/jacket.webp",
+                    "imagen": "/images/imagenesjson/abrigo/camperajean-gabardina1.webp",
+                    "imagen2": "/images/imagenesjson/abrigo/camperajean-gabardina2.webp",
                     "estilo": ["casual", "basico"],
                     "tiempo": ["tarde","dia", "noche"],
                     "clima":  ["calor","templado"]
