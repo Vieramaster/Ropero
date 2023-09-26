@@ -12,7 +12,8 @@
 
                 {   
                     "nombre": "buzoSinCapucha",
-                    "imagen": "/images/imagenesArray/hoodie.webp",
+                    "imagen": "/images/imagenesjson/buzoSinCapucha1.webp",
+                    "imagen2":"/images/imagenesjson/buzoSinCapucha2.webp",
                     "estilo": ["deportivo", "casual", "basico"],    
                     "tiempo":["dia", "tarde", "noche"],
                     "clima":["calor", "templado"] 
@@ -20,23 +21,18 @@
             
                 {   
                     "nombre": "remera",
-                    "imagen": "/images/imagenesArray/hoodie.webp",
+                    "imagen": "/images/imagenesjson/remera1.webp",
+                    "imagen2": "/images/imagenesjson/remera2.webp",
                     "estilo": ["deportivo", "casual", "basico"],  
                     "tiempo": ["dia", "tarde", "noche"],
                     "clima":  ["calor", "templado"] 
                 },
             
-                {
-                    "nombre": "remeraV",
-                    "imagen": "/images/imagenesArray/hoodie.webp",
-                    "estilo": ["deportivo","casual", "basico"],
-                    "tiempo": ["dia","tarde","noche"],
-                    "clima":  ["calor","templado"]
-                },
-                
+            
                 {
                     "nombre": "chomba",
-                    "imagen":"/images/imagenesArray/hoodie.webp",
+                    "imagen": "/images/imagenesjson/chomba1.webp",
+                    "imagen2": "/images/imagenesjson/chomba2.webp",
                     "estilo": ["casual","elegante", "basico"],
                     "tiempo": ["dia","tarde","noche"],
                     "clima":  ["calor","templado"]
@@ -44,7 +40,8 @@
 
                 {
                     "nombre": "sweater",
-                    "imagen": "/images/imagenesArray/hoodie.webp",
+                    "imagen": "/images/imagenesjson/sweater1.webp",
+                    "imagen2": "/images/imagenesjson/sweater2.webp",
                     "estilo": ["casual","elegante"],
                     "tiempo": ["dia","tarde","noche"],
                     "clima":  ["templado","frio"]
@@ -52,7 +49,8 @@
 
                 {
                     "nombre": "polera" ,
-                    "imagen": "/images/imagenesArray/hoodie.webp",
+                    "imagen": "/images/imagenesjson/polera1.webp",
+                    "imagen2": "/images/imagenesjson/polera2.webp",
                     "estilo": ["casual","elegante", "basico"],
                     "tiempo": ["tarde","noche"],
                     "clima":  "frio"
@@ -60,7 +58,8 @@
 
                 {
                     "nombre": "camisaCorta",
-                    "imagen": "/images/imagenesArray/hoodie.webp",
+                    "imagen": "/images/imagenesjson/camisaCorta1.webp",
+                    "imagen2": "/images/imagenesjson/camisaCorta2.webp",
                     "estilo": ["casual","elegante", "basico"],
                     "tiempo": ["tarde","noche"],
                     "clima":  "calor"

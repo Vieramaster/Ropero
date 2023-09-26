@@ -13,7 +13,7 @@ a {
   height: 100%;
 }
 body {
-  background-color: #eeeeee;
+  background-color: #fff;
   width: 100vw;
   height: 100vh;
 }
@@ -57,7 +57,7 @@ header {
 .header__nav li:last-child a {
   height: auto;
   width: auto;
-  color: #eeeeee;
+  color: #fff;
 }
 /*------------------------------------------MODAL--------------------------------------------------------*/
 .login-box {
