@@ -96,7 +96,8 @@
 
                 {
                     "nombre": "CamperaCuero",
-                    "imagen": "/images/jacket.webp",
+                    "imagen": "/images/imagenesjson/abrigo/camperacuero1.webp",
+                    "imagen2":"/images/imagenesjson/abrigo/camperacuero2.webp",
                     "estilo":  "casual",
                     "tiempo": ["dia","tarde","noche"],
                     "clima":  ["frio", "templado", "calor"]
@@ -104,7 +105,8 @@
 
                 {
                     "nombre": "camperaInflable",
-                    "imagen": "/images/jacket.webp",
+                    "imagen": "/images/imagenesjson/abrigo/camperainflada1.webp",
+                    "imagen2": "/images/imagenesjson/abrigo/camperainflada2.webp",
                     "estilo": ["deportivo", "basico"],
                     "tiempo": ["dia","tarde"],
                     "clima":  "frio"
@@ -112,7 +114,8 @@
 
                 {
                     "nombre": "parka",
-                    "imagen": "/images/jacket.webp",
+                    "imagen": "/images/imagenesjson/abrigo/parka1.webp",
+                    "imagen2": "/images/imagenesjson/abrigo/parka2.webp",
                     "estilo": ["casual", "basico"],
                     "tiempo": ["dia","tarde"],
                     "clima":  "frio"
