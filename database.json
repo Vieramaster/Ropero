@@ -123,7 +123,8 @@
 
                 {
                     "nombre": "camisaco",
-                    "imagen": "/images/jacket.webp",
+                    "imagen": "/images/imagenesjson/abrigo/camisaco1.webp",
+                    "imagen2": "/images/imagenesjson/abrigo/camisaco3.webp",
                     "estilo": "casual",
                     "tiempo": ["dia","tarde","noche"],
                     "clima":  ["templado","frio"]
@@ -131,7 +132,8 @@
 
                 {
                     "nombre": "bomber",
-                    "imagen": "/images/jacket.webp",
+                    "imagen": "/images/imagenesjson/abrigo/bomber1.webp",
+                    "imagen2": "/images/imagenesjson/abrigo/bomber2.webp",
                     "estilo": ["casual", "basico"],
                     "tiempo": ["dia","tarde"],
                     "clima":  ["templado","calor"]
