@@ -139,17 +139,11 @@
                     "clima":  ["templado","calor"]
                 },
 
-                {
-                    "nombre": "camperaUniversitaria",
-                    "imagen": "/images/jacket.webp",
-                    "estilo": "casual",
-                    "tiempo": "tarde",
-                    "clima":  ["templado", "frio"]
-                },
 
                 {
                     "nombre": "CamperaJeanAbrigo",
-                    "imagen": "/images/jacket.webp",
+                    "imagen": "/images/imagenesjson/abrigo/camperashepard1.webp",
+                    "imagen2": "/images/imagenesjson/abrigo/camperashepard2.webp",
                     "estilo": "casual",
                     "tiempo": ["dia", "tarde"],
                     "clima":  "frio"
