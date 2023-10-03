@@ -149,17 +149,12 @@
                     "clima":  "frio"
                 },
 
-                {
-                    "nombre": "gaban",
-                    "imagen": "/images/jacket.webp",
-                    "estilo": ["casual", "elegante"],
-                    "tiempo": ["tarde", "noche"],
-                    "clima":   "frio"
-                },
+             
 
                 {
-                    "nombre": "camperaRompeViento",
-                    "imagen": "/images/jacket.webp",
+                    "nombre": "campera rompeviento",
+                    "imagen": "/images/imagenesjson/abrigo/rompeviento1.webp",
+                    "imagen2": "/images/imagenesjson/abrigo/rompeviento2.webp",
                     "estilo": ["deportivo", "basico"],
                     "tiempo": ["dia", "tarde"],
                     "clima":  "calor"
