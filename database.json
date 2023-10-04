@@ -1,7 +1,6 @@
-{
-    "top": [
 
-                {   
+[
+                {   "categoria":"top",
                     "nombre": "hoodie",
                     "imagen":"/images/imagenesjson/top/hoodie1.webp",
                     "imagen2":"/images/imagenesjson/top/hoodie2.webp",
@@ -11,6 +10,7 @@
                 },
 
                 {   
+                    "categoria":"top",
                     "nombre": "buzo sin Capucha",
                     "imagen": "/images/imagenesjson/top/buzoSinCapucha1.webp",
                     "imagen2":"/images/imagenesjson/top/buzoSinCapucha2.webp",
@@ -20,6 +20,7 @@
                 },
             
                 {   
+                    "categoria":"top",
                     "nombre": "remera",
                     "imagen": "/images/imagenesjson/top/remera1.webp",
                     "imagen2": "/images/imagenesjson/top/remera2.webp",
@@ -30,6 +31,7 @@
             
             
                 {
+                    "categoria":"top",
                     "nombre": "chomba",
                     "imagen": "/images/imagenesjson/top/chomba1.webp",
                     "imagen2": "/images/imagenesjson/top/chomba2.webp",
@@ -39,6 +41,7 @@
                 },
 
                 {
+                    "categoria":"top",
                     "nombre": "sweater",
                     "imagen": "/images/imagenesjson/top/sweater1.webp",
                     "imagen2": "/images/imagenesjson/top/sweater2.webp",
@@ -48,6 +51,7 @@
                 },
 
                 {
+                    "categoria":"top",
                     "nombre": "polera" ,
                     "imagen": "/images/imagenesjson/top/polera1.webp",
                     "imagen2": "/images/imagenesjson/top/polera2.webp",
@@ -57,6 +61,7 @@
                 },
 
                 {
+                    "categoria":"top",
                     "nombre": "camisa manga corta",
                     "imagen": "/images/imagenesjson/top/camisaCorta1.webp",
                     "imagen2": "/images/imagenesjson/top/camisaCorta2.webp",
@@ -66,6 +71,7 @@
                 },
                 
                 {
+                    "categoria":"top",
                     "nombre": "camisa manga larga",
                     "imagen": "/images/imagenesjson/top/camisalarga1.webp",
                     "imagen2": "/images/imagenesjson/top/camisalarga2.webp",
@@ -74,18 +80,17 @@
                 },
                 
                 {
+                    "categoria":"top",
                     "nombre": "remera manga larga" ,
                     "imagen": "/images/imagenesjson/top/remeralarga1.webp",
                     "imagen2": "/images/imagenesjson/top/remeralarga2.webp",
                     "estilo": ["casual","deportivo", "basico"],
                     "tiempo": ["dia","tarde"],
                     "clima":  "frio"
-                }
-            ],
+                },
 
-
-    "abrigo":[
                 {
+                    "categoria":"abrigo",
                     "nombre": "camperaJean/gabardina",
                     "imagen": "/images/imagenesjson/abrigo/camperajean-gabardina1.webp",
                     "imagen2": "/images/imagenesjson/abrigo/camperajean-gabardina2.webp",
@@ -95,6 +100,7 @@
                 },
 
                 {
+                    "categoria":"abrigo",
                     "nombre": "CamperaCuero",
                     "imagen": "/images/imagenesjson/abrigo/camperacuero1.webp",
                     "imagen2":"/images/imagenesjson/abrigo/camperacuero2.webp",
@@ -104,6 +110,7 @@
                 },
 
                 {
+                    "categoria":"abrigo",
                     "nombre": "camperaInflable",
                     "imagen": "/images/imagenesjson/abrigo/camperainflada1.webp",
                     "imagen2": "/images/imagenesjson/abrigo/camperainflada2.webp",
@@ -113,6 +120,7 @@
                 },
 
                 {
+                    "categoria":"abrigo",
                     "nombre": "parka",
                     "imagen": "/images/imagenesjson/abrigo/parka1.webp",
                     "imagen2": "/images/imagenesjson/abrigo/parka2.webp",
@@ -122,6 +130,7 @@
                 },
 
                 {
+                    "categoria":"abrigo",
                     "nombre": "camisaco",
                     "imagen": "/images/imagenesjson/abrigo/camisaco1.webp",
                     "imagen2": "/images/imagenesjson/abrigo/camisaco3.webp",
@@ -131,6 +140,7 @@
                 },
 
                 {
+                    "categoria":"abrigo",
                     "nombre": "bomber",
                     "imagen": "/images/imagenesjson/abrigo/bomber1.webp",
                     "imagen2": "/images/imagenesjson/abrigo/bomber2.webp",
@@ -141,6 +151,7 @@
 
 
                 {
+                    "categoria":"abrigo",
                     "nombre": "CamperaJeanAbrigo",
                     "imagen": "/images/imagenesjson/abrigo/camperashepard1.webp",
                     "imagen2": "/images/imagenesjson/abrigo/camperashepard2.webp",
@@ -149,9 +160,10 @@
                     "clima":  "frio"
                 },
 
-             
+
 
                 {
+                    "categoria":"abrigo",
                     "nombre": "campera rompeviento",
                     "imagen": "/images/imagenesjson/abrigo/rompeviento1.webp",
                     "imagen2": "/images/imagenesjson/abrigo/rompeviento2.webp",
@@ -161,14 +173,17 @@
                 },
 
                 {
-                    "nombre": "sacoSport",
-                    "imagen": "/images/jacket.webp",
+                    "categoria":"abrigo",
+                    "nombre": "saco Sport",
+                    "imagen": "/images/imagenesjson/abrigo/sacosport1.webp",
+                    "imagen2":"/images/imagenesjson/abrigo/sacosport2.webp",
                     "estilo": "casual",
                     "tiempo": "tarde",
                     "clima":  ["templado", "frio"]
                 },
 
                 {
+                    "categoria":"abrigo",
                     "nombre": "saconCorto",
                     "imagen": "/images/jacket.webp",
                     "estilo": "casual",
@@ -177,6 +192,7 @@
                 },
 
                 {
+                    "categoria":"abrigo",
                     "nombre": "sacoCruzado",
                     "imagen": "/images/jacket.webp",
                     "estilo": "casual",
@@ -185,6 +201,7 @@
                 },
 
                 {
+                    "categoria":"abrigo",
                     "nombre": "sobretodo",
                     "imagen": "/images/jacket.webp",
                     "estilo": ["casual", "elegante"],
@@ -193,17 +210,15 @@
                 },
 
                 {
+                    "categoria":"abrigo",
                     "nombre": "Montgomery",
                     "imagen": "/images/jacket.webp",
                     "estilo": ["casual","basico"],
                     "tiempo": ["dia", "tarde"],
                     "clima":  "frio"
-                }
-    ],
+                },
 
-
-    "cuello":[
-                {
+                {   "categoria":"cuello",
                     "nombre": "collarCadenaChica",
                     "imagen": "/images/extra/necklace.webp",
                     "estilo": ["casual","elegante"],
@@ -212,6 +227,7 @@
                 },
 
                 {
+                    "categoria":"cuello",
                     "nombre": "collarCadenaGrande",
                     "imagen": "/images/extra/necklace.webp",
                     "estilo": "casual",
@@ -220,6 +236,7 @@
                 },
                 
                 {
+                    "categoria":"cuello",
                     "nombre": "collarPelotas",
                     "imagen": "/images/extra/necklace.webp",
                     "estilo": "casual",
@@ -228,6 +245,7 @@
                 },
                 
                 {
+                    "categoria":"cuello",
                     "nombre": "collarObjeto",
                     "imagen": "/images/extra/necklace.webp",
                     "estilo": ["casual", "basico"],
@@ -236,6 +254,7 @@
                 },
                 
                 {
+                    "categoria":"cuello",
                     "nombre": "collarMadera",
                     "imagen": "/images/extra/necklace.webp",
                     "estilo": ["basico","casual"],
@@ -244,22 +263,16 @@
                 },
                 
                 {
+                    "categoria":"cuello",
                     "nombre": "bufanda",
                     "imagen": "/images/extra/necklace.webp",
                     "estilo": ["casual","basico","elegante"],
                     "tiempo": ["dia", "tarde", "noche"],
                     "clima": "frio"
-                }
-                
-                
-                
-                                                                                                                                                
-            ],
+                },
 
 
-    "cinturon":[
-
-                {
+                {   "categoria":"cinturon",
                     "nombre": "Vestir",
                     "imagen": "/images/svg/belt.svg",
                     "estilo": "elegante",
@@ -268,6 +281,7 @@
                 },
 
                 {
+                    "categoria":"cinturon",
                     "nombre": "tradicional",
                     "imagen": "/images/extra/belt.webp",
                     "estilo": ["casual", "basico"],
@@ -276,6 +290,7 @@
                 },
 
                 {
+                    "categoria":"cinturon",
                     "nombre": "tela",
                     "imagen": "/images/extra/belt.webp",
                     "estilo": ["casual", "basico"],
@@ -284,6 +299,7 @@
                 },
                 
                 {
+                    "categoria":"cinturon",
                     "nombre": "jean",
                     "imagen": "/images/extra/belt.webp",
                     "estilo": ["casual", "basico"],
@@ -292,19 +308,17 @@
                 },
                 
                 {
+                    "categoria":"cinturon",
                     "nombre": "trenzados",
                     "imagen": "/images/extra/belt.webp",
                     "estilo": "casual",
                     "tiempo": ["dia", "tarde"],
                     "clima":  ["frio", "templado", "calor"]
-                }
-                
+                },
 
-                ],
-
-    "reloj":[
 
                 {
+                    "categoria":"reloj",
                     "nombre": "deportivo",
                     "imagen": "/images/extra/wristwatch.webp",
                     "estilo": "deportivo",
@@ -314,6 +328,7 @@
         
         
                 {
+                    "categoria":"reloj",
                     "nombre": "aviador",
                     "imagen": "/images/extra/wristwatch.webp",
                     "estilo": "casual",
@@ -322,6 +337,7 @@
                 },
                 
                 {
+                    "categoria":"reloj",
                     "nombre": "racing",
                     "imagen": "/images/extra/wristwatch.webp",
                     "estilo": "casual",
@@ -330,6 +346,7 @@
                 },
                 
                 {
+                    "categoria":"reloj",
                     "nombre": "dress",
                     "imagen": "/images/extra/wristwatch.webp",
                     "estilo": "elegante",
@@ -338,18 +355,17 @@
                 },
 
                 {
+                    "categoria":"reloj",
                     "nombre": "CorreaTela",
                     "imagen": "/images/extra/wristwatch.webp",
                     "estilo": "casual",
                     "tiempo": ["dia", "tarde"],
                     "clima":["frio", "templado", "calor"]
-                }
-            ],
-
-    "pantalon":[
+                },
 
 
                 {
+                    "categoria":"pantalon",
                     "nombre": "jean/Gabardina",
                     "imagen": "/images/extra/pants.webp",
                     "estilo": ["casual", "basico"],
@@ -358,6 +374,7 @@
                 },
 
                 {
+                    "categoria":"pantalon",
                     "nombre": "chino",
                     "imagen": "/images/extra/pants.webp",
                     "estilo": ["casual", "elegante"],
@@ -366,6 +383,7 @@
                 },
 
                 {
+                    "categoria":"pantalon",
                     "nombre": "cargo",
                     "imagen": "/images/extra/pants.webp",
                     "estilo": "basico",
@@ -374,6 +392,7 @@
                 },
 
                 {
+                    "categoria":"pantalon",
                     "nombre": "lino",
                     "imagen": "/images/extra/pants.webp",
                     "estilo": ["casual","basico"],
@@ -382,6 +401,7 @@
                 },
 
                 {
+                    "categoria":"pantalon",
                     "nombre": "babucha",
                     "imagen": "/images/extra/pants.webp",
                     "estilo": ["casual", "basico"],
@@ -390,6 +410,7 @@
                 },
 
                 {
+                    "categoria":"pantalon",
                     "nombre": "jogin",
                     "imagen": "/images/extra/pants.webp",
                     "estilo": ["basico","deportivo"],
@@ -400,6 +421,7 @@
             
 
                 {
+                    "categoria":"pantalon",
                     "nombre": "bermudaAlgodon",
                     "imagen": "/images/extra/pants.webp",
                     "estilo": "basico",
@@ -408,18 +430,19 @@
                 },
 
                 {
+                    "categoria":"pantalon",
                     "nombre": "bermudaGabardina/jean",
                     "imagen": "/images/extra/pants.webp",
                     "estilo": "casual",
                     "tiempo": ["tarde","dia"],
                     "clima":  "calor"
-                }
-    ],
+                },
 
 
-    "calzado":[
+
 
                 {
+                    "categoria":"calzado",
                     "nombre": "deportivo",
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": "deportivo",
@@ -429,6 +452,7 @@
 
 
                 {
+                    "categoria":"calzado",
                     "nombre": "urbano",
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": "casual",
@@ -437,6 +461,7 @@
                 },
 
                 {
+                    "categoria":"calzado",
                     "nombre": "nautico",
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": "casual",
@@ -445,6 +470,7 @@
                 },
 
                 {
+                    "categoria":"calzado",
                     "nombre": "sneakers",
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": ["basico","casual"],
@@ -453,6 +479,7 @@
                 },
 
                 {
+                    "categoria":"calzado",
                     "nombre": "derbi",
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": "casual",
@@ -461,6 +488,7 @@
                 },
 
                 {
+                    "categoria":"calzado",
                     "nombre": "sandalias",
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": ["basico"],
@@ -470,6 +498,7 @@
 
 
                 {
+                    "categoria":"calzado",
                     "nombre": "botinesVestir",
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": ["casual","elegante"],
@@ -478,6 +507,7 @@
                 },
                 
                 {
+                    "categoria":"calzado",
                     "nombre": "borcego",
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": ["basico","casual"],
@@ -486,6 +516,7 @@
                 },
                 
                 {
+                    "categoria":"calzado",
                     "nombre": "alpargata",
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": ["casual","basico"],
@@ -494,6 +525,7 @@
                 },
                 
                 {
+                    "categoria":"calzado",
                     "nombre": "zapatoOxford",
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": ["casual", "elegante"],
@@ -502,6 +534,7 @@
                 },
                 
                 {
+                    "categoria":"calzado",
                     "nombre": "zapatoBrogue" ,
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": ["casual"],
@@ -509,7 +542,6 @@
                     "clima":  ["calor","frio","templado"]
                 }
 
-    ]
-}
-
+    
+            ]
 
