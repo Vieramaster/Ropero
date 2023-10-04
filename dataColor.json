@@ -189,6 +189,11 @@
     },
 
     {
+        "nombre":"rosa bebe",
+        "hex": "#eedbe5",
+        "tono": "claro"
+    },
+    {
         "nombre": "rosa viejo",
         "hex": "#a4767a",
         "tono": "claro"

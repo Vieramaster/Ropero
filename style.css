@@ -312,7 +312,24 @@ main {
 .box2__abrigo {
   width: 9.6rem;
   height: 12rem;
+
+
 }
+
+.bloqueBoton{
+  
+  width: 512px;
+  height: 512px;
+  
+  background-color: #00adb5;
+}
+
+.bloqueBoton button{
+  
+width: 4rem;
+height: 4rem;
+}
+
 
 /*----------------------------------------------MEDIA---------------------------------------------*/
 
@@ -431,16 +448,3 @@ main {
 
 
 
-.bloqueBoton{
-  
-  width: 512px;
-  height: 512px;
-  
-  background-color: #00adb5;
-}
-
-.botonaso {
-  
-width: 4rem;
-height: 4rem;
-}

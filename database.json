@@ -6,7 +6,8 @@
                     "imagen2":"/images/imagenesjson/top/hoodie2.webp",
                     "estilo": ["deportivo","casual", "basico"],    
                     "tiempo":["dia", "tarde", "noche"],
-                    "clima":["frio", "templado"] 
+                    "clima":["frio", "templado"], 
+                    "colores":[]
                 },
 
                 {   
@@ -16,7 +17,8 @@
                     "imagen2":"/images/imagenesjson/top/buzoSinCapucha2.webp",
                     "estilo": ["deportivo", "casual", "basico"],    
                     "tiempo":["dia", "tarde", "noche"],
-                    "clima":["calor", "templado"] 
+                    "clima":["calor", "templado"] ,
+                    "colores":[]
                 },
             
                 {   
@@ -26,7 +28,8 @@
                     "imagen2": "/images/imagenesjson/top/remera2.webp",
                     "estilo": ["deportivo", "casual", "basico"],  
                     "tiempo": ["dia", "tarde", "noche"],
-                    "clima":  ["calor", "templado"] 
+                    "clima":  ["calor", "templado"] ,
+                    "colores":[]
                 },
             
             
@@ -37,7 +40,8 @@
                     "imagen2": "/images/imagenesjson/top/chomba2.webp",
                     "estilo": ["casual","elegante", "basico"],
                     "tiempo": ["dia","tarde","noche"],
-                    "clima":  ["calor","templado"]
+                    "clima":  ["calor","templado"],
+                    "colores":[]
                 },
 
                 {
@@ -47,7 +51,8 @@
                     "imagen2": "/images/imagenesjson/top/sweater2.webp",
                     "estilo": ["casual","elegante"],
                     "tiempo": ["dia","tarde","noche"],
-                    "clima":  ["templado","frio"]
+                    "clima":  ["templado","frio"],
+                    "colores":[]
                 },
 
                 {
@@ -57,7 +62,8 @@
                     "imagen2": "/images/imagenesjson/top/polera2.webp",
                     "estilo": ["casual","elegante", "basico"],
                     "tiempo": ["tarde","noche"],
-                    "clima":  "frio"
+                    "clima":  "frio",
+                    "colores":[]
                 },
 
                 {
@@ -67,7 +73,8 @@
                     "imagen2": "/images/imagenesjson/top/camisaCorta2.webp",
                     "estilo": ["casual","elegante", "basico"],
                     "tiempo": ["tarde","noche"],
-                    "clima":  "calor"
+                    "clima":  "calor",
+                    "colores":[]
                 },
                 
                 {
@@ -76,7 +83,8 @@
                     "imagen": "/images/imagenesjson/top/camisalarga1.webp",
                     "imagen2": "/images/imagenesjson/top/camisalarga2.webp",
                     "tiempo": ["tarde","noche"],
-                    "clima":  ["frio","templado","calor"]
+                    "clima":  ["frio","templado","calor"],
+                    "colores":[]
                 },
                 
                 {
@@ -86,8 +94,10 @@
                     "imagen2": "/images/imagenesjson/top/remeralarga2.webp",
                     "estilo": ["casual","deportivo", "basico"],
                     "tiempo": ["dia","tarde"],
-                    "clima":  "frio"
+                    "clima":  "frio",
+                    "colores":[]
                 },
+        
 
                 {
                     "categoria":"abrigo",
@@ -96,7 +106,8 @@
                     "imagen2": "/images/imagenesjson/abrigo/camperajean-gabardina2.webp",
                     "estilo": ["casual", "basico"],
                     "tiempo": ["tarde","dia", "noche"],
-                    "clima":  ["calor","templado"]
+                    "clima":  ["calor","templado"],
+                    "NoColores":["#318CE7", "#862C84", "#9fd5d1 ", "#08554c", "#bdecb6", "#edd6b4",  "#ffe1a0", "#e1ad01", "#ff8c00", "#a94c2b",  "#d1bc8a", "#710c04", "#800020", "#cf010b",  "#d8197f", "#f3a399"]
                 },
 
                 {
@@ -106,7 +117,8 @@
                     "imagen2":"/images/imagenesjson/abrigo/camperacuero2.webp",
                     "estilo":  "casual",
                     "tiempo": ["dia","tarde","noche"],
-                    "clima":  ["frio", "templado", "calor"]
+                    "clima":  ["frio", "templado", "calor"],
+                    "colores":["#603085", "#862C84", "#C8A2C8","#02075d","#318CE7", "#b9d8e3", "#9fd5d1 ","#08554c","#899478", "#bdecb6","#edd6b4","#ffe1a0", "#e1ad01", "#ff8c00", "#eedbe5","#a4767a","#f3a399","#ec94c4" ]
                 },
 
                 {
@@ -116,7 +128,8 @@
                     "imagen2": "/images/imagenesjson/abrigo/camperainflada2.webp",
                     "estilo": ["deportivo", "basico"],
                     "tiempo": ["dia","tarde"],
-                    "clima":  "frio"
+                    "clima":  "frio",
+                    "colores":[]
                 },
 
                 {
@@ -126,7 +139,8 @@
                     "imagen2": "/images/imagenesjson/abrigo/parka2.webp",
                     "estilo": ["casual", "basico"],
                     "tiempo": ["dia","tarde"],
-                    "clima":  "frio"
+                    "clima":  "frio",
+                    "colores":[]
                 },
 
                 {
@@ -136,7 +150,8 @@
                     "imagen2": "/images/imagenesjson/abrigo/camisaco3.webp",
                     "estilo": "casual",
                     "tiempo": ["dia","tarde","noche"],
-                    "clima":  ["templado","frio"]
+                    "clima":  ["templado","frio"],
+                    "colores":[]
                 },
 
                 {
