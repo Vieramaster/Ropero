@@ -56,22 +56,15 @@ function RopaEstructura(datos) {
 
 function cargarColores(btnBox, datos) {
   datosColor().then((items) => {
-   
     const bloqueDiv = document.createElement("div");
     bloqueDiv.classList.add("bloqueBoton");
     let displayColor = items.map((item) => {
       return `<button type="button" title="${item.nombre}" style="background-color: ${item.hex};"></button>`;
     });
-          displayColor = displayColor.join("");
-          bloqueDiv.innerHTML = displayColor;
-          box2.appendChild(bloqueDiv);
-          let colorButtons = document.querySelectorAll(".bloqueBoton > button");
-          colorButtons.forEach((colorButton) => {
-            colorButton.addEventListener("click", () => {
-              let color = colorButton.style.backgroundColor;
-              btnBox.style.backgroundColor = color;
-      });
-    });
+    displayColor = displayColor.join("");
+    bloqueDiv.innerHTML = displayColor;
+    box2.appendChild(bloqueDiv);
+    tercerBoton(btnBox, datos);
   });
 }
 
@@ -82,11 +75,10 @@ buttons.forEach((btn) => {
     datosRopa().then((datos) => {
       const categoriaRopa = datos.filter((item) => {
         return item.categoria === btnNombre;
+        
       });
       RopaEstructura(categoriaRopa);
-
       const buttons2 = document.querySelectorAll(" .box2 button");
-
       segundoBoton(datos, buttons2, PrimerBoton);
     });
   });
@@ -96,10 +88,24 @@ function segundoBoton(datos, buttons2, PrimerBoton) {
   buttons2.forEach((btnBox) => {
     btnBox.addEventListener("click", () => {
       let padre = PrimerBoton.parentNode;
-
       padre.replaceChild(btnBox, PrimerBoton);
       box2.innerHTML = "";
       cargarColores(btnBox, datos);
+    });
+  });
+}
+
+function tercerBoton(btnBox) {
+  let colorButtons = document.querySelectorAll(".bloqueBoton > button");
+  colorButtons.forEach((colorButton) => {
+    colorButton.addEventListener("click", () => {
+      let color = colorButton.style.backgroundColor;
+      btnBox.style.backgroundColor = color;
+
+      let filtroColor = datos.filter((item) => {
+        return item.colores
+      });
+      console.log(filtroColor)
     });
   });
 }
