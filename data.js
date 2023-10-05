@@ -75,7 +75,6 @@ buttons.forEach((btn) => {
     datosRopa().then((datos) => {
       const categoriaRopa = datos.filter((item) => {
         return item.categoria === btnNombre;
-        
       });
       RopaEstructura(categoriaRopa);
       const buttons2 = document.querySelectorAll(" .box2 button");
@@ -101,11 +100,7 @@ function tercerBoton(btnBox) {
     colorButton.addEventListener("click", () => {
       let color = colorButton.style.backgroundColor;
       btnBox.style.backgroundColor = color;
-
-      let filtroColor = datos.filter((item) => {
-        return item.colores
-      });
-      console.log(filtroColor)
     });
   });
-}
+};
+
