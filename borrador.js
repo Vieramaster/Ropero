@@ -184,3 +184,6 @@ function cargarCalzado() {
 }
 
 btnCalzado.addEventListener("click", cargarCalzado);
+
+
+

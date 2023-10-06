@@ -19,27 +19,10 @@ function datosRopa() {
     .catch(console.error);
 }
 
-function datosColor() {
-  return fetch("./dataColor.json")
-    .then((response) => response.json())
-    .catch(console.error);
-}
 const box1 = document.querySelector(".box");
 const box2 = document.querySelector(".box2");
-const fafa = {
-  top: {},
-  abrigo: {},
-};
 
 /*-------------------------- funciones------------------------------*/
-const datosBotones = {
-  top: {},
-  abrigo: {},
-  cuello: {},
-  cinturon: {},
-  pantalon: {},
-  calzado: {},
-};
 
 const buttons = document.querySelectorAll(" .box button");
 
@@ -52,20 +35,6 @@ function RopaEstructura(datos) {
   });
   displayMenu = displayMenu.join("");
   box2.innerHTML = displayMenu;
-}
-
-function cargarColores(btnBox, datos) {
-  datosColor().then((items) => {
-    const bloqueDiv = document.createElement("div");
-    bloqueDiv.classList.add("bloqueBoton");
-    let displayColor = items.map((item) => {
-      return `<button type="button" title="${item.nombre}" style="background-color: ${item.hex};"></button>`;
-    });
-    displayColor = displayColor.join("");
-    bloqueDiv.innerHTML = displayColor;
-    box2.appendChild(bloqueDiv);
-    tercerBoton(btnBox, datos);
-  });
 }
 
 buttons.forEach((btn) => {
@@ -89,18 +58,44 @@ function segundoBoton(datos, buttons2, PrimerBoton) {
       let padre = PrimerBoton.parentNode;
       padre.replaceChild(btnBox, PrimerBoton);
       box2.innerHTML = "";
-      cargarColores(btnBox, datos);
+      BotonColores(btnBox, datos, PrimerBoton);
     });
   });
 }
 
-function tercerBoton(btnBox) {
+function BotonColores(btnBox, datos, PrimerBoton) {
+  let nombre = btnBox.title;
+  const bloqueDiv = document.createElement("div");
+  bloqueDiv.classList.add("bloqueBoton");
+
+  const arrayRecuperado = datos.find((item) => {
+    return item.nombre === nombre;
+  });
+  let coloresArray = arrayRecuperado.colores;
+  let displayColor = coloresArray.map((item) => {
+    return `<button style="background-color:${item.hex} ;" title="${item.nombre}"></button>`;
+  });
+  displayColor = displayColor.join("");
+  bloqueDiv.innerHTML = displayColor;
+  box2.appendChild(bloqueDiv);
+  tercerBoton(btnBox, arrayRecuperado, PrimerBoton);
+}
+
+function tercerBoton(btnBox, arrayRecuperado, PrimerBoton) {
   let colorButtons = document.querySelectorAll(".bloqueBoton > button");
   colorButtons.forEach((colorButton) => {
     colorButton.addEventListener("click", () => {
       let color = colorButton.style.backgroundColor;
-      btnBox.style.backgroundColor = color;
+      let imagen1 = arrayRecuperado.imagen
+      let imagen2 = arrayRecuperado.imagen2;
+      imagenBtnBox = btnBox.querySelector("img");
+      if (color === "rgb(0, 0, 0)") {
+        imagenBtnBox.src = imagen2;
+        btnBox.style.backgroundColor = color;
+      } else {
+        imagenBtnBox.src = imagen1;
+        btnBox.style.backgroundColor = color;
+      }
     });
   });
-};
-
+}
