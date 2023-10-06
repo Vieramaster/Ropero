@@ -281,14 +281,7 @@ main {
   
 }
 
-.block__pantalon::after{
-  content: "";
-  background-color: #00adb5;
-  width: 100%;
-  height: 100%;
-  opacity: 0.8;
-  position: absolute;
-}
+
 .block__calzado {
   width: 10rem;
   height: 7rem;
