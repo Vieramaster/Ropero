@@ -234,12 +234,10 @@ main {
 }
 
 .block__top,
-.block__abrigo{
+.block__abrigo {
   width: 12rem;
   height: 15rem;
 }
-
-
 
 .block__abrigo {
   margin-right: 1rem;
@@ -276,11 +274,9 @@ main {
 .block__pantalon {
   width: 12rem;
   height: 15rem;
-  fill: red;
-  position: relative;
-  
-}
 
+  position: relative;
+}
 
 .block__calzado {
   width: 10rem;
@@ -296,7 +292,7 @@ main {
   height: auto;
   gap: 1rem;
   flex-wrap: wrap-reverse;
-  
+
   justify-content: space-around;
   align-items: center;
 }
@@ -305,25 +301,24 @@ main {
 .box2__abrigo {
   width: 9.6rem;
   height: 12rem;
-
-
 }
 
-.bloqueBoton{
-  
+.bloqueBoton {
   width: 512px;
   height: 512px;
-  
+
   background-color: #00adb5;
 }
 
-.bloqueBoton button{
-  
-width: 4rem;
-height: 4rem;
+.bloqueBoton button {
+  width: 4rem;
+  height: 4rem;
 }
 
-
+.box2 .butonFinal{
+  height: 5rem;
+  width: 5rem;
+}
 /*----------------------------------------------MEDIA---------------------------------------------*/
 
 @media (width <= 1200px) {
@@ -437,7 +432,3 @@ height: 4rem;
   }
 }
 /*----------------------------------------------*/
-
-
-
-

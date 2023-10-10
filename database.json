@@ -148,8 +148,8 @@
                     "nombre": "Chomba",
                     "imagen": "/images/imagenesjson/top/chomba1.webp",
                     "imagen2": "/images/imagenesjson/top/chomba2.webp",
-                    "estilo": ["casual","elegante", "basico"],
-                    "tiempo": ["dia","tarde","noche"],
+                    "estilo": ["casual"],
+                    "tiempo": ["dia","tarde"],
                     "clima":  ["calor","templado"],
                     "colores":[ {"nombre":"violeta","hex":"#603085"},
                                 {"nombre": "Púrpura","hex": "#862C84"},
@@ -244,7 +244,7 @@
                     "imagen2": "/images/imagenesjson/top/polera2.webp",
                     "estilo": ["casual","elegante", "basico"],
                     "tiempo": ["tarde","noche"],
-                    "clima":  "frio",
+                    "clima":  ["frio"],
                     "colores":[ {"nombre":"violeta","hex":"#603085"},
                                 {"nombre": "Púrpura","hex": "#862C84"},
                                 {"nombre": "lila","hex": "#C8A2C8"}, 
@@ -289,9 +289,9 @@
                     "nombre": "Camisa manga corta",
                     "imagen": "/images/imagenesjson/top/camisaCorta1.webp",
                     "imagen2": "/images/imagenesjson/top/camisaCorta2.webp",
-                    "estilo": ["casual","elegante", "basico"],
+                    "estilo": ["casual"],
                     "tiempo": ["tarde","noche"],
-                    "clima":  "calor",
+                    "clima":  ["calor"],
                     "colores":[ {"nombre":"violeta","hex":"#603085"},
                                 {"nombre": "Púrpura","hex": "#862C84"},
                                 {"nombre": "lila","hex": "#C8A2C8"}, 
@@ -336,6 +336,7 @@
                     "nombre": "Camisa manga larga",
                     "imagen": "/images/imagenesjson/top/camisalarga1.webp",
                     "imagen2": "/images/imagenesjson/top/camisalarga2.webp",
+                    "estilo":["casual","elegante"],
                     "tiempo": ["tarde","noche"],
                     "clima":  ["frio","templado","calor"],
                     "colores":[ {"nombre":"violeta","hex":"#603085"},
@@ -384,7 +385,7 @@
                     "imagen2": "/images/imagenesjson/top/remeralarga2.webp",
                     "estilo": ["casual","deportivo", "basico"],
                     "tiempo": ["dia","tarde"],
-                    "clima":  "frio",
+                    "clima":  ["frio"],
                     "colores":[ {"nombre":"violeta","hex":"#603085"},
                                 {"nombre": "Púrpura","hex": "#862C84"},
                                 {"nombre": "lila","hex": "#C8A2C8"}, 
@@ -461,7 +462,7 @@
                     "nombre": "Campera de cuero",
                     "imagen": "/images/imagenesjson/abrigo/camperacuero1.webp",
                     "imagen2":"/images/imagenesjson/abrigo/camperacuero2.webp",
-                    "estilo":  "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["dia","tarde","noche"],
                     "clima":  ["frio", "templado", "calor"],
                     "colores":[ 
@@ -493,7 +494,7 @@
                     "imagen2": "/images/imagenesjson/abrigo/camperainflada2.webp",
                     "estilo": ["deportivo", "basico"],
                     "tiempo": ["dia","tarde"],
-                    "clima":  "frio",
+                    "clima":  ["frio"],
                     "colores":[ {"nombre":"violeta","hex":"#603085"},
                                 {"nombre": "aero","hex":"#416aa2"},
                                 {"nombre": "azul navy","hex":"#19284c"},
@@ -559,7 +560,7 @@
                     "nombre": "Camisaco",
                     "imagen": "/images/imagenesjson/abrigo/camisaco1.webp",
                     "imagen2": "/images/imagenesjson/abrigo/camisaco3.webp",
-                    "estilo": "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["dia","tarde","noche"],
                     "clima":  ["templado","frio"],
                     "colores":[ 
@@ -589,7 +590,7 @@
                                 {"nombre": "rosa viejo","hex": "#a4767a"}
                             ]
                 },
-
+                
                 {
                     "categoria":"abrigo",
                     "nombre": "Campera bomber",
@@ -632,9 +633,9 @@
                     "nombre": "Campera jean abrigo",
                     "imagen": "/images/imagenesjson/abrigo/camperashepard1.webp",
                     "imagen2": "/images/imagenesjson/abrigo/camperashepard2.webp",
-                    "estilo": "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["dia", "tarde"],
-                    "clima":  "frio",
+                    "clima":  ["frio"],
                     "colores":[                               
                                 {"nombre": "aero","hex":"#416aa2"},
                                 {"nombre": "azul navy","hex":"#19284c"},
@@ -667,7 +668,7 @@
                     "imagen2": "/images/imagenesjson/abrigo/rompeviento2.webp",
                     "estilo": ["deportivo", "basico"],
                     "tiempo": ["dia", "tarde"],
-                    "clima":  "calor",
+                    "clima":  ["calor"],
                     "colores":[ 
                                 {"nombre":"violeta","hex":"#603085"},
                                 {"nombre": "aero","hex":"#416aa2"},
@@ -705,7 +706,7 @@
                     "nombre": "Blazer",
                     "imagen": "/images/imagenesjson/abrigo/sacosport1.webp",
                     "imagen2":"/images/imagenesjson/abrigo/sacosport2.webp",
-                    "estilo": "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["tarde","noche"],
                     "clima":  ["templado", "frio"],
                     "colores":[ {"nombre":"violeta","hex":"#603085"},
@@ -740,10 +741,11 @@
                 {
                     "categoria":"abrigo",
                     "nombre": "Saco cruzado",
-                    "imagen": "/images/jacket.webp",
+                    "imagen": "/images/imagenesjson/abrigo/saco cruzado.webp",
+                    "imagen2":"/images/imagenesjson/abrigo/saco cruzado2.webp",
                     "estilo": "casual",
                     "tiempo": ["tarde", "dia"],
-                    "clima": "frio",
+                    "clima": ["frio"],
                     "colores":[ 
                                 {"nombre": "aero","hex":"#416aa2"},
                                 {"nombre": "azul navy","hex":"#19284c"},
@@ -768,7 +770,7 @@
                     "imagen": "/images/jacket.webp",
                     "estilo": ["casual", "elegante"],
                     "tiempo": ["tarde", "noche"],
-                    "clima":  "frio",
+                    "clima":  ["frio"],
                     "colores":[ 
                                 {"nombre": "azul navy","hex":"#19284c"},
                                 {"nombre": "marfil","hex": "#edd6b4"},
@@ -793,7 +795,7 @@
                     "imagen": "/images/jacket.webp",
                     "estilo": ["casual","basico"],
                     "tiempo": ["dia", "tarde"],
-                    "clima":  "frio",
+                    "clima":  ["frio"],
                     "colores":[ 
                                 {"nombre": "azul navy","hex":"#19284c"},
                                 {"nombre": "marfil","hex": "#edd6b4"},
@@ -816,7 +818,7 @@
                     "categoria":"cuello",
                     "nombre": "Collar con Cadena",
                     "imagen": "/images/extra/necklace.webp",
-                    "estilo": "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["dia","tarde","noche"],
                     "clima":  ["templado", "calor"],
                     "colores":[ 
@@ -829,7 +831,7 @@
                     "categoria":"cuello",
                     "nombre": "Collar con Pelotas",
                     "imagen": "/images/extra/necklace.webp",
-                    "estilo": "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["dia", "tarde", "noche"],
                     "clima":  ["templado", "calor"],
                     "colores":[ 
@@ -857,7 +859,7 @@
                     "imagen": "/images/extra/necklace.webp",
                     "estilo": ["basico","casual"],
                     "tiempo": ["dia", "tarde"],
-                    "clima":  "calor",
+                    "clima":  ["calor"],
                     "colores":[
                                 {"nombre":"verde militar","hex": "#363d10"},
                                 {"nombre": "cacao","hex": "#766142"},
@@ -875,7 +877,7 @@
                     "imagen": "/images/extra/necklace.webp",
                     "estilo": ["casual","basico","elegante"],
                     "tiempo": ["dia", "tarde", "noche"],
-                    "clima": "frio",
+                    "clima": ["frio"],
                     "colores":[ 
                                 {"nombre": "aero","hex":"#416aa2"},
                                 {"nombre": "azul navy","hex":"#19284c"},
@@ -908,8 +910,8 @@
                 {   "categoria":"cinturon",
                     "nombre": "Vestir",
                     "imagen": "/images/svg/belt.svg",
-                    "estilo": "elegante",
-                    "tiempo": "noche",
+                    "estilo": ["elegante"],
+                    "tiempo": ["noche"],
                     "clima":  ["frio", "calor"],
                     "colores":[ 
                                 {"nombre": "azul navy","hex":"#19284c"},
@@ -982,7 +984,7 @@
                     "categoria":"cinturon",
                     "nombre": "Trenzados",
                     "imagen": "/images/extra/belt.webp",
-                    "estilo": "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["dia", "tarde"],
                     "clima":  ["frio", "templado", "calor"],
                     "colores":[ 
@@ -1008,7 +1010,7 @@
                     "categoria":"reloj",
                     "nombre": "Deportivo",
                     "imagen": "/images/extra/wristwatch.webp",
-                    "estilo": "deportivo",
+                    "estilo": ["deportivo"],
                     "tiempo": ["dia", "tarde"],
                     "clima":  ["frio", "templado", "calor"],
                     "colores":[ 
@@ -1033,7 +1035,7 @@
                     "categoria":"reloj",
                     "nombre": "Aviador",
                     "imagen": "/images/extra/wristwatch.webp",
-                    "estilo": "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["tarde", "dia"],
                     "clima":  ["frio", "templado", "calor"],
                     "colores":[ 
@@ -1057,7 +1059,7 @@
                     "categoria":"reloj",
                     "nombre": "Dress",
                     "imagen": "/images/extra/wristwatch.webp",
-                    "estilo": "elegante",
+                    "estilo": ["elegante"],
                     "tiempo": ["noche", "tarde"],
                     "clima":   ["frio", "templado", "calor"],
                     "colores":[ 
@@ -1082,7 +1084,7 @@
                     "categoria":"reloj",
                     "nombre": "Correa de tela",
                     "imagen": "/images/extra/wristwatch.webp",
-                    "estilo": "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["dia", "tarde"],
                     "clima":["frio", "templado", "calor"],
                     "colores":[ 
@@ -1171,7 +1173,7 @@
                     "categoria":"pantalon",
                     "nombre": "Cargo",
                     "imagen": "/images/extra/pants.webp",
-                    "estilo": "basico",
+                    "estilo": ["basico"],
                     "tiempo": ["dia","tarde"],
                     "clima":  ["frio","calor","templado"],
                     "colores":[
@@ -1202,7 +1204,7 @@
                     "imagen": "/images/extra/pants.webp",
                     "estilo": ["casual","basico"],
                     "tiempo": ["dia","tarde"],
-                    "clima":  "calor",
+                    "clima":  ["calor"],
                     "colores":[
                         {"nombre": "aero","hex":"#416aa2"},
                         {"nombre": "azul navy","hex":"#19284c"},
@@ -1301,9 +1303,9 @@
                     "categoria":"pantalon",
                     "nombre": "Bermuda jogin",
                     "imagen": "/images/extra/pants.webp",
-                    "estilo": "basico",
+                    "estilo": ["basico"],
                     "tiempo": ["dia","tarde"],
-                    "clima":  "calor",
+                    "clima":  ["calor"],
                     "colores":[ 
                                 {"nombre":"violeta","hex":"#603085"},
                                 {"nombre": "Púrpura","hex": "#862C84"},
@@ -1344,7 +1346,7 @@
                     "categoria":"pantalon",
                     "nombre": "Bermuda gabardina/jean",
                     "imagen": "/images/extra/pants.webp",
-                    "estilo": "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["tarde","dia"],
                     "clima":  "calor",
                     "colores":[ 
@@ -1378,7 +1380,7 @@
                     "categoria":"calzado",
                     "nombre": "Deportivo",
                     "imagen": "/images/extra/calzado.webp",
-                    "estilo": "deportivo",
+                    "estilo": ["deportivo"],
                     "tiempo": ["dia","tarde"],
                     "clima":  ["calor","frio","templado"],
                     "colores":[ 
@@ -1419,7 +1421,7 @@
                     "categoria":"calzado",
                     "nombre": "Sneakers",
                     "imagen": "/images/extra/calzado.webp",
-                    "estilo": "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["dia","tarde"],
                     "clima":  ["calor","frio","templado"],
                     "colores":[ 
@@ -1446,7 +1448,7 @@
                     "categoria":"calzado",
                     "nombre": "Nautico",
                     "imagen": "/images/extra/calzado.webp",
-                    "estilo": "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["dia","tarde"],
                     "clima": ["calor","frio","templado"],
                     "colores":[ 
@@ -1471,9 +1473,9 @@
                     "categoria":"calzado",
                     "nombre": "Derbi",
                     "imagen": "/images/extra/calzado.webp",
-                    "estilo": "casual",
+                    "estilo": ["casual"],
                     "tiempo": ["dia","tarde"],
-                    "clima": "frio",
+                    "clima": ["frio"],
                     "colores":[ 
                                 {"nombre": "aero","hex":"#416aa2"},
                                 {"nombre": "azul navy","hex":"#19284c"},            
@@ -1497,7 +1499,7 @@
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": ["basico"],
                     "tiempo": ["dia","tarde"],
-                    "clima":  "calor",
+                    "clima":  ["calor"],
                     "colores":[ 
                                 {"nombre": "aero","hex":"#416aa2"},
                                 {"nombre": "azul navy","hex":"#19284c"},
@@ -1523,7 +1525,7 @@
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": ["casual","elegante"],
                     "tiempo": ["noche","tarde"],
-                    "clima":  "frio",
+                    "clima":  ["frio"],
                     "colores":[ 
                                 {"nombre": "ladrillo","hex": "#a94c2b"},
                                 {"nombre":"suela","hex":"#8B4513"},
@@ -1545,7 +1547,7 @@
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": ["basico","casual"],
                     "tiempo": ["dia","tarde"],
-                    "clima":  "frio",
+                    "clima":  ["frio"],
                     "colores":[ 
                                 {"nombre": "moztaza","hex": "#e1ad01"},
                                 {"nombre": "ladrillo","hex": "#a94c2b"},
@@ -1588,7 +1590,7 @@
                     "nombre": ">apato brogue" ,
                     "imagen": "/images/extra/calzado.webp",
                     "estilo": ["casual"],
-                    "tiempo": "tarde",
+                    "tiempo": ["tarde"],
                     "clima":  ["calor","frio","templado"],
                     "colores":[ 
                                 {"nombre": "ladrillo","hex": "#a94c2b"},

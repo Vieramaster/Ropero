@@ -58,12 +58,12 @@ function segundoBoton(datos, buttons2, PrimerBoton) {
       let padre = PrimerBoton.parentNode;
       padre.replaceChild(btnBox, PrimerBoton);
       box2.innerHTML = "";
-      BotonColores(btnBox, datos, PrimerBoton);
+      MostrarColores(btnBox, datos, PrimerBoton);
     });
   });
 }
 
-function BotonColores(btnBox, datos, PrimerBoton) {
+function MostrarColores(btnBox, datos) {
   let nombre = btnBox.title;
   const bloqueDiv = document.createElement("div");
   bloqueDiv.classList.add("bloqueBoton");
@@ -78,10 +78,10 @@ function BotonColores(btnBox, datos, PrimerBoton) {
   displayColor = displayColor.join("");
   bloqueDiv.innerHTML = displayColor;
   box2.appendChild(bloqueDiv);
-  tercerBoton(btnBox, arrayRecuperado, PrimerBoton);
+  botonesColor(btnBox, arrayRecuperado,datos);
 }
 
-function tercerBoton(btnBox, arrayRecuperado, PrimerBoton) {
+function botonesColor(btnBox, arrayRecuperado, datos) {
   let colorButtons = document.querySelectorAll(".bloqueBoton > button");
   colorButtons.forEach((colorButton) => {
     colorButton.addEventListener("click", () => {
@@ -89,13 +89,51 @@ function tercerBoton(btnBox, arrayRecuperado, PrimerBoton) {
       let imagen1 = arrayRecuperado.imagen
       let imagen2 = arrayRecuperado.imagen2;
       imagenBtnBox = btnBox.querySelector("img");
-      if (color === "rgb(0, 0, 0)") {
-        imagenBtnBox.src = imagen2;
-        btnBox.style.backgroundColor = color;
-      } else {
-        imagenBtnBox.src = imagen1;
-        btnBox.style.backgroundColor = color;
-      }
+          if (color === "rgb(0, 0, 0)") {
+            imagenBtnBox.src = imagen2;
+            btnBox.style.backgroundColor = color;
+          } else {
+            imagenBtnBox.src = imagen1;
+            btnBox.style.backgroundColor = color;
+          }
+      createButtonCombiner(arrayRecuperado,datos)
     });
+
   });
 }
+
+/******************************************************************************** */
+
+function createButtonCombiner(arrayRecuperado, datos){
+
+  let buttonFinal = document.createElement("button")
+  buttonFinal.classList.add("butonFinal");
+  buttonFinal.style.backgroundColor = "grey"
+  box2.appendChild(buttonFinal)
+  
+    buttonFinal.addEventListener("click",()=>{
+
+      filtroRopa(arrayRecuperado,datos)
+    })
+}
+
+
+
+
+function filtroRopa(arrayRecuperado,datos){
+  const estiloElegido = arrayRecuperado.estilo
+  const climaElegido = arrayRecuperado.clima
+  const tiempoElegido = arrayRecuperado.tiempo
+  const categoriaElegida = arrayRecuperado.categoria
+ 
+        let filtrado = datos.filter( dato => 
+            estiloElegido.some(estilo => dato.estilo.includes(estilo))
+        &&  climaElegido.some(clima => dato.clima.includes(clima))
+        &&  tiempoElegido.some(tiempo => dato.tiempo.includes(tiempo))
+        &&  dato.categoria !== categoriaElegida)
+  
+          console.log(filtrado)
+} 
+
+
+
