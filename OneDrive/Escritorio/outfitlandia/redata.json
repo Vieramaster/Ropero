@@ -1,0 +1,441 @@
+[
+    {
+        "garment": "top",
+        "name": "hoodie",
+        "img": "./src/images/image-json/top/hoodie-hood-white.webp",
+        "css": "big",
+        "style": [
+            "basic",
+            "casual"
+        ],
+        "weather": [
+            "mild",
+            "cold"
+        ],
+        "colors": [
+            {
+                "colorName": "violeta",
+                "hex": "#603085",
+                "imgColor": "/src/images/image-json/top/hoodie-violet.webp"
+            },
+            {
+                "colorName": "lila",
+                "hex": "#C8A2C8",
+                "imgColor": "/src/images/image-json/top/hoodie-lile.webp"
+            },
+            {
+                "colorName": "aero",
+                "hex": "#416aa2",
+                "imgColor": "/src/images/image-json/top/hoodie-aero.webp"
+            },
+            {
+                "colorName": "azul navy",
+                "hex": "#19284c",
+                "imgColor": "/src/images/image-json/top/hoodie-navy.webp"
+            },
+            {
+                "colorName": "azul francia",
+                "hex": "#318CE7",
+                "imgColor": "/src/images/image-json/top/hoodie-blue-france.webp"
+            },
+            {
+                "colorName": "celeste",
+                "hex": "#c9e9fc",
+                "imgColor": "/src/images/image-json/top/hoodie-skyblue.webp"
+            },
+            {
+                "colorName": "aguamarina",
+                "hex": "#9fd5d1 ",
+                "imgColor": "/src/images/image-json/top/hoodie-aquamarine.webp"
+            },
+            {
+                "colorName": "esmeralda oscuro",
+                "hex": "#08554c",
+                "imgColor": "/src/images/image-json/top/hoodie-esmerald.webp"
+            },
+            {
+                "colorName": "verde oscuro",
+                "hex": "#363d10",
+                "imgColor": "/src/images/image-json/top/hoodie-darkgreen.webp"
+            },
+            {
+                "colorName": "verde militar",
+                "hex": "#899478",
+                "imgColor": "/src/images/image-json/top/hoodie-military.webp"
+            },
+            {
+                "colorName": "marfil",
+                "hex": "#e1dfd1",
+                "imgColor": "/src/images/image-json/top/hoodie-ivory.webp"
+            },
+            {
+                "colorName": "amarillo",
+                "hex": "#ffe1a0",
+                "imgColor": "/src/images/image-json/top/hoodie-yellow.webp"
+            },
+            {
+                "colorName": "moztaza",
+                "hex": "#e1ad01",
+                "imgColor": "/src/images/image-json/top/hoodie-mostaza.webp"
+            },
+            {
+                "colorName": "naranja",
+                "hex": "#ff8c00",
+                "imgColor": "/src/images/image-json/top/hoodie-orange.webp"
+            },
+            {
+                "colorName": "suela",
+                "hex": "#8B4513",
+                "imgColor": "/src/images/image-json/top/hoodie-candy.webp"
+            },
+            {
+                "colorName": "choolate",
+                "hex": "#45322e",
+                "imgColor": "/src/images/image-json/top/hoodie-chocolate.webp"
+            },
+            {
+                "colorName": "camello",
+                "hex": "#b18a61",
+                "imgColor": "/src/images/image-json/top/hoodie-camel.webp"
+            },
+            {
+                "colorName": "beige",
+                "hex": "#d1bc8a",
+                "imgColor": "/src/images/image-json/top/hoodie-beige.webp"
+            },
+            {
+                "colorName": "blanco",
+                "hex": "#ffffff",
+                "imgColor": "/src/images/image-json/top/hoodie-white.webp"
+            },
+            {
+                "colorName": "gris claro",
+                "hex": "#c7c8ca",
+                "imgColor": "/src/images/image-json/top/hoodie-light-grey.webp"
+            },
+            {
+                "colorName": "gris topo",
+                "hex": "#708090",
+                "imgColor": "/src/images/image-json/top/hoodie-dark-grey.webp"
+            },
+            {
+                "colorName": "negro",
+                "hex": "#000000",
+                "imgColor": "/src/images/image-json/top/hoodie-black.webp"
+            },
+            {
+                "colorName": "borgoña",
+                "hex": "#800020",
+                "imgColor": "/src/images/image-json/top/hoodie-burgundy.webp"
+            },
+            {
+                "colorName": "rojo",
+                "hex": "#cf010b",
+                "imgColor": "/src/images/image-json/top/hoodie-red.webp"
+            },
+            {
+                "colorName": "rosa bebe",
+                "hex": "#eedbe5",
+                "imgColor": "/src/images/image-json/top/hoodie-baby-pink.webp"
+            },
+            {
+                "colorName": "rosa viejo",
+                "hex": "#a4767a",
+                "imgColor": "/src/images/image-json/top/hoodie-old-pink.webp"
+            },
+            {
+                "colorName": "salmón",
+                "hex": "#f3a399",
+                "imgColor": "/src/images/image-json/top/hoodie-salmon.webp"
+            }
+        ]
+    },
+    {
+        "garment": "top",
+        "name": "hoodie sin capucha",
+        "img": "/src/images/image-json/top/hoodie-white.webp",
+        "css": "big",
+        "style": [
+            "basic",
+            "casual"
+        ],
+        "weather": [
+            "mild",
+            "cold"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "top",
+        "name": "remera manga corta",
+        "img": "/src/images/image-json/top/t-shirt-white.webp",
+        "css": "big",
+        "style": [
+            "basic",
+            "casual"
+        ],
+        "weather": [
+            "heat",
+            "mild"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "top",
+        "name": "chomba",
+        "img": "/src/images/image-json/top/polo-white.webp",
+        "css": "big",
+        "style": [
+            "casual"
+        ],
+        "weather": [
+            "heat",
+            "mild"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "top",
+        "name": "sweater",
+        "img": "/src/images/image-json/top/sweater-white.webp",
+        "css": "big",
+        "style": [
+            "casual",
+            "elegant"
+        ],
+        "weather": [
+            "mild",
+            "cold"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "top",
+        "name": "polera",
+        "img": "/src/images/image-json/top/turtle-sweater-white.webp",
+        "css": "big",
+        "style": [
+            "casual",
+            "elegant"
+        ],
+        "weather": [
+            "cold"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "top",
+        "name": "camisa manga corta",
+        "img": "/src/images/image-json/top/short-sleeved-shirt-white.webp",
+        "css": "big",
+        "style": [
+            "casual"
+        ],
+        "weather": [
+            "heat"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "top",
+        "name": "camisa manga larga",
+        "img": "/src/images/image-json/top/long-sleeve-shirt-whote.webp",
+        "css": "big",
+        "style": [
+            "casual",
+            "elegant"
+        ],
+        "weather": [
+            "heat",
+            "mild",
+            "cold"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "top",
+        "name": "remera manga larga",
+        "img": "/src/images/image-json/top/long-t-shirt-white.webp",
+        "css": "big",
+        "style": [
+            "basic"
+        ],
+        "weather": [
+            "mild",
+            "cold"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "coat",
+        "name": "chaqueta de jean",
+        "img": "/src/images/jacket.webp",
+        "css": "big",
+        "style": [
+            "basic",
+            "casual"
+        ],
+        "weather": [
+            "heat",
+            "mild"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "coat",
+        "name": "chaqueta de gabardina",
+        "img": "/src/images/jacket.webp",
+        "css": "big",
+        "style": [
+            "basic",
+            "casual"
+        ],
+        "weather": [
+            "heat",
+            "mild"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "coat",
+        "name": "campera de cuero",
+        "img": "/src/images/jacket.webp",
+        "css": "big",
+        "style": [
+            "basic",
+            "casual"
+        ],
+        "weather": [
+            "heat",
+            "mild"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "coat",
+        "name": "campera infable",
+        "img": "/src/images/jacket.webp",
+        "css": "big",
+        "style": [
+            "basic"
+        ],
+        "weather": [
+            "mild",
+            "cold"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "coat",
+        "name": "parka",
+        "img": "/src/images/jacket.webp",
+        "css": "big",
+        "style": [
+            "basic",
+            "casual"
+        ],
+        "weather": [
+            "cold"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "coat",
+        "name": "camisaco",
+        "img": "/src/images/jacket.webp",
+        "css": "big",
+        "style": [
+            "basic",
+            "casual"
+        ],
+        "weather": [
+            "heat",
+            "mild"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "coat",
+        "name": "campera bomber",
+        "img": "/src/images/jacket.webp",
+        "css": "big",
+        "style": [
+            "basic",
+            "casual"
+        ],
+        "weather": [
+            "cold"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "coat",
+        "name": "chaqueta de jean con abrigo",
+        "css": "big",
+        "img": "/src/images/jacket.webp",
+        "style": [
+            "basic",
+            "casual"
+        ],
+        "weather": [
+            "cold"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "coat",
+        "name": "blazer",
+        "img": "/src/images/jacket.webp",
+        "css": "big",
+        "style": [
+            "casual",
+            "elegant"
+        ],
+        "weather": [
+            "mild",
+            "cold"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "coat",
+        "name": "saco cruzado",
+        "img": "/src/images/jacket.webp",
+        "css": "big",
+        "style": [
+            "casual",
+            "elegant"
+        ],
+        "weather": [
+            "cold"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "coat",
+        "name": "sobretodo",
+        "img": "/src/images/jacket.webp",
+        "css": "big",
+        "style": [
+            "casual",
+            "elegant"
+        ],
+        "weather": [
+            "cold"
+        ],
+        "colors": []
+    },
+    {
+        "garment": "coat",
+        "name": "montgomery",
+        "img": "/src/images/jacket.webp",
+        "css": "big",
+        "style": [
+            "casual"
+        ],
+        "weather": [
+            "cold"
+        ],
+        "colors": []
+    }
+]

@@ -1,0 +1,45 @@
+.clothes-selection {
+    width: 55%;
+    height: 80%;
+    overflow: auto;
+  
+  
+  }
+  
+  .clothes-selection--box {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .clothes-selection::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  .clothes-selection::-webkit-scrollbar-track {
+    background: var(--primary-color); 
+  }
+  
+  .clothes-selection::-webkit-scrollbar-thumb {
+    background: var(--fourth-color); 
+  }
+  
+  .clothes-selection::-webkit-scrollbar-thumb:hover {
+    background: var(--third-color); 
+  
+  }
+  
+  
+  .clothes-selection--btn{
+  
+    display: grid;
+  
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    grid-gap: 2rem;
+     
+  }
+  
